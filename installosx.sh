@@ -28,7 +28,7 @@ defaults write NSGlobalDomain AppleFontSmoothing -int 2
 # defaults write com.apple.dock no-glass -bool true
 
 # Automatically hide and show the Dock
-# defaults write com.apple.dock autohide -bool true
+defaults write com.apple.dock autohide -bool true
 
 # echo "Make Dock icons of hidden applications translucent"
 # defaults write com.apple.dock showhidden -bool true
@@ -40,7 +40,7 @@ defaults write NSGlobalDomain AppleFontSmoothing -int 2
 #defaults write NSGlobalDomain AppleEnableMenuBarTransparency -bool false
 
 # Show remaining battery time; hide percentage
-# defaults write com.apple.menuextra.battery ShowPercent -string "NO"
+defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 # defaults write com.apple.menuextra.battery ShowTime -string "YES"
 
 # echo "Always show scrollbars"
@@ -60,6 +60,10 @@ defaults write com.apple.finder ShowPathbar -bool true
 
 echo "Show Status bar in Finder"
 defaults write com.apple.finder ShowStatusBar -bool true
+
+#Store screenshots in subfolder on Dropbox
+mkdir ~/Dropbox/Screenshots
+defaults write com.apple.screencapture location ~/Dropbox/Screenshots
 
 # echo "Expand print panel by default"
 # defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true

@@ -1,13 +1,23 @@
 # gitconfig
 [user]
-    name = Nick Nisi
-    email = nick@nisi.org
-[github]
-    user = nicknisi
+        name = patricknolan
+        email = patrick.nolan@deltareadytechnology.com.au
+[core]
+        autocrlf = input
+[diff]
+        tool = vimdiff
+[difftool]
+        prompt = false
+
+[filter "lfs"]
+        clean = git-lfs clean %f
+        smudge = git-lfs smudge %f
+        required = true
 [init]
     templatedir = ~/.dotfiles/git/templates
 [alias]
     # list all aliases
+    d = difftool
     la = "!git config -l | grep alias | cut -c 7-"
     delete-merged-branches = "!f() { git checkout --quiet master && git branch --merged | grep --invert-match '\\*' | xargs -n 1 git branch --delete; git checkout --quiet @{-1}; }; f"
     diff = diff --ignore-space-at-eol -b -w --ignore-blank-lines
@@ -106,17 +116,6 @@
 [push]
     # push will only do the current branch, not all branches
     default = current
-[branch]
-    # set up 'git pull' to rebase instead of merge
-    autosetuprebase = always
-[diff]
-    renames = copies
-    mnemonicprefix = true
-[difftool]
-    prompt = false
-[apply]
-    # do not warn about missing whitespace at EOF
-    whitespace = nowarn
 [core]
     excludesfile = ~/.gitignore_global
     pager = less -FXRS -x2
@@ -130,8 +129,4 @@
     lineNumber = true
 [credential]
 	helper = osxkeychain
-[difftool "Kaleidoscope"]
-	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
-[mergetool "Kaleidoscope"]
-	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
-	trustexitcode = true
+

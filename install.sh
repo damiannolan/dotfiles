@@ -16,6 +16,9 @@ if [ "$(uname)" == "Darwin" ]; then
     echo "Brewing all the things"
     source scripts/brew.sh
 
+    echo "Installing oh-my-zsh"
+    sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
     echo "Updating OSX settings"
     source scripts/osx.sh
 

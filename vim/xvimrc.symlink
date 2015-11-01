@@ -1,0 +1,14 @@
+set number
+set clipboard=unnamed
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Mappings
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" re ap esc
+inoremap jk <esc>
+" set a map leader for more key combos
+let mapleader = ','
+let g:mapleader = ','
+
+nmap <space>D :xccmd showDeveloperDocumentation<CR>
+nmap <space>d :xcmenucmd Quick Help for Selected Item<CR>
+nmap <space>F :xccmd showInFinder<CR>
