@@ -73,10 +73,12 @@ map <leader>v :set paste!<cr>
 map <F7> mzgg=G`z
 " Colour Schemes
 set background=dark
-" set background=light
+"set background=light
 set encoding=utf8
 "let base16colorspace=256  " Access colors present in 256 colorspace"
 set t_Co=256 " Explicitly tell vim that the terminal supports 256 colors"
+"let g:solarized_visiblility = "high"
+"let g:solarized_contrast = "high"
 colorscheme base16-solarized
 "Utilities
 let g:auto_save = 1  " enable AutoSave on Vim startup

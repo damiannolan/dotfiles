@@ -16,13 +16,14 @@ brew install mongodb
 brew install couchdb
 brew install redis 
 brew install postgresql
+brew install postgis
 brew install pgcli
 
 # development tools
 brew install git
 brew install git-flow
 #brew install hub
-brew install macvim --override-system-vim
+brew install macvim --with-override-system-vim
 brew install reattach-to-user-namespace
 brew install tmux
 brew install zsh
@@ -32,8 +33,6 @@ brew install nvm
 brew install z
 brew install markdown
 brew install jenv
-brew install maven
-brew install leiningen
 brew install python
 brew install python3
 
@@ -52,10 +51,17 @@ brew install caskroom/cask/brew-cask
 brew cask install google-chrome
 brew cask install firefox
 brew cask install opera
-brew cask install parallels
 brew cask install virtualbox
 brew cask install dockertoolbox
 brew cask install spotify
 brew cask install iterm2
 brew cask install vlc
 brew cask install brackets
+brew cask install easysimbl
+
+brew tap caskroom/versions
+brew cask install java7
+brew cask install java
+brew install maven
+brew install leiningen
+

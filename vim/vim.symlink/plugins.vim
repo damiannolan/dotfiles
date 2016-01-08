@@ -47,6 +47,7 @@ Plugin 'henrik/vim-qargs'
 " JavaScript Beautify
 Plugin 'maksimr/vim-jsbeautify'
 Plugin 'einars/js-beautify'
+"Plugin 'chriskempson/base16-vim'
 call vundle#end()
 filetype plugin indent on
 

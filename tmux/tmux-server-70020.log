@@ -1,0 +1,1137 @@
+1448194264.132749 server started, pid 70020
+1448194264.132830 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.132835 cmdq 0x7fa363e04aa0: bind-key C-b send-prefix
+1448194264.132857 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.132861 cmdq 0x7fa363e04aa0: bind-key C-o rotate-window
+1448194264.132869 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.132872 cmdq 0x7fa363e04aa0: bind-key C-z suspend-client
+1448194264.132882 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.132885 cmdq 0x7fa363e04aa0: bind-key Space next-layout
+1448194264.132892 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.132895 cmdq 0x7fa363e04aa0: bind-key ! break-pane
+1448194264.132901 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.132904 cmdq 0x7fa363e04aa0: bind-key " split-window
+1448194264.132911 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.132914 cmdq 0x7fa363e04aa0: bind-key # list-buffers
+1448194264.132922 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.132926 cmdq 0x7fa363e04aa0: bind-key $ command-prompt -I#S "rename-session '%%'"
+1448194264.132936 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.132939 cmdq 0x7fa363e04aa0: bind-key % split-window -h
+1448194264.132948 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.132952 cmdq 0x7fa363e04aa0: bind-key & confirm-before "-pkill-window #W? (y/n)" kill-window
+1448194264.132970 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.132974 cmdq 0x7fa363e04aa0: bind-key ' command-prompt -pindex "select-window -t ':%%'"
+1448194264.132981 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.132984 cmdq 0x7fa363e04aa0: bind-key ( switch-client -p
+1448194264.132991 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.132994 cmdq 0x7fa363e04aa0: bind-key ) switch-client -n
+1448194264.133003 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133006 cmdq 0x7fa363e04aa0: bind-key , command-prompt -I#W "rename-window '%%'"
+1448194264.133013 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133016 cmdq 0x7fa363e04aa0: bind-key - delete-buffer
+1448194264.133023 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133026 cmdq 0x7fa363e04aa0: bind-key . command-prompt "move-window -t '%%'"
+1448194264.133032 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133035 cmdq 0x7fa363e04aa0: bind-key 0 select-window -t:=0
+1448194264.133042 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133045 cmdq 0x7fa363e04aa0: bind-key 1 select-window -t:=1
+1448194264.133052 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133055 cmdq 0x7fa363e04aa0: bind-key 2 select-window -t:=2
+1448194264.133062 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133065 cmdq 0x7fa363e04aa0: bind-key 3 select-window -t:=3
+1448194264.133071 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133074 cmdq 0x7fa363e04aa0: bind-key 4 select-window -t:=4
+1448194264.133083 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133085 cmdq 0x7fa363e04aa0: bind-key 5 select-window -t:=5
+1448194264.133092 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133095 cmdq 0x7fa363e04aa0: bind-key 6 select-window -t:=6
+1448194264.133102 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133105 cmdq 0x7fa363e04aa0: bind-key 7 select-window -t:=7
+1448194264.133112 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133115 cmdq 0x7fa363e04aa0: bind-key 8 select-window -t:=8
+1448194264.133122 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133124 cmdq 0x7fa363e04aa0: bind-key 9 select-window -t:=9
+1448194264.133131 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133134 cmdq 0x7fa363e04aa0: bind-key : command-prompt
+1448194264.133140 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133142 cmdq 0x7fa363e04aa0: bind-key ; last-pane
+1448194264.133148 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133151 cmdq 0x7fa363e04aa0: bind-key = choose-buffer
+1448194264.133161 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133164 cmdq 0x7fa363e04aa0: bind-key ? list-keys
+1448194264.133170 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133172 cmdq 0x7fa363e04aa0: bind-key D choose-client
+1448194264.133178 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133181 cmdq 0x7fa363e04aa0: bind-key L switch-client -l
+1448194264.133188 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133191 cmdq 0x7fa363e04aa0: bind-key M select-pane -M
+1448194264.133197 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133200 cmdq 0x7fa363e04aa0: bind-key [ copy-mode
+1448194264.133206 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133208 cmdq 0x7fa363e04aa0: bind-key ] paste-buffer
+1448194264.133214 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133217 cmdq 0x7fa363e04aa0: bind-key c new-window
+1448194264.133223 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133225 cmdq 0x7fa363e04aa0: bind-key d detach-client
+1448194264.133232 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133235 cmdq 0x7fa363e04aa0: bind-key f command-prompt "find-window '%%'"
+1448194264.133241 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133244 cmdq 0x7fa363e04aa0: bind-key i display-message
+1448194264.133250 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133252 cmdq 0x7fa363e04aa0: bind-key l last-window
+1448194264.133258 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133261 cmdq 0x7fa363e04aa0: bind-key m select-pane -m
+1448194264.133269 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133272 cmdq 0x7fa363e04aa0: bind-key n next-window
+1448194264.133278 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133281 cmdq 0x7fa363e04aa0: bind-key o select-pane -t:.+
+1448194264.133287 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133290 cmdq 0x7fa363e04aa0: bind-key p previous-window
+1448194264.133296 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133298 cmdq 0x7fa363e04aa0: bind-key q display-panes
+1448194264.133304 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133306 cmdq 0x7fa363e04aa0: bind-key r refresh-client
+1448194264.133312 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133315 cmdq 0x7fa363e04aa0: bind-key s choose-tree
+1448194264.133320 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133322 cmdq 0x7fa363e04aa0: bind-key t clock-mode
+1448194264.133328 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133330 cmdq 0x7fa363e04aa0: bind-key w choose-window
+1448194264.133338 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133341 cmdq 0x7fa363e04aa0: bind-key x confirm-before "-pkill-pane #P? (y/n)" kill-pane
+1448194264.133348 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133351 cmdq 0x7fa363e04aa0: bind-key z resize-pane -Z
+1448194264.133357 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133360 cmdq 0x7fa363e04aa0: bind-key { swap-pane -U
+1448194264.133367 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133370 cmdq 0x7fa363e04aa0: bind-key } swap-pane -D
+1448194264.133376 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133379 cmdq 0x7fa363e04aa0: bind-key ~ show-messages
+1448194264.133386 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133388 cmdq 0x7fa363e04aa0: bind-key PPage copy-mode -u
+1448194264.133395 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133398 cmdq 0x7fa363e04aa0: bind-key -r Up select-pane -U
+1448194264.133406 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133409 cmdq 0x7fa363e04aa0: bind-key -r Down select-pane -D
+1448194264.133417 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133420 cmdq 0x7fa363e04aa0: bind-key -r Left select-pane -L
+1448194264.133427 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133430 cmdq 0x7fa363e04aa0: bind-key -r Right select-pane -R
+1448194264.133437 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133443 cmdq 0x7fa363e04aa0: bind-key M-1 select-layout even-horizontal
+1448194264.133450 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133453 cmdq 0x7fa363e04aa0: bind-key M-2 select-layout even-vertical
+1448194264.133462 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133465 cmdq 0x7fa363e04aa0: bind-key M-3 select-layout main-horizontal
+1448194264.133471 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133474 cmdq 0x7fa363e04aa0: bind-key M-4 select-layout main-vertical
+1448194264.133481 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133495 cmdq 0x7fa363e04aa0: bind-key M-5 select-layout tiled
+1448194264.133501 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133504 cmdq 0x7fa363e04aa0: bind-key M-n next-window -a
+1448194264.133511 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133514 cmdq 0x7fa363e04aa0: bind-key M-o rotate-window -D
+1448194264.133521 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133524 cmdq 0x7fa363e04aa0: bind-key M-p previous-window -a
+1448194264.133541 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133544 cmdq 0x7fa363e04aa0: bind-key -r M-Up resize-pane -U 5
+1448194264.133564 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133567 cmdq 0x7fa363e04aa0: bind-key -r M-Down resize-pane -D 5
+1448194264.133576 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133579 cmdq 0x7fa363e04aa0: bind-key -r M-Left resize-pane -L 5
+1448194264.133588 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133591 cmdq 0x7fa363e04aa0: bind-key -r M-Right resize-pane -R 5
+1448194264.133599 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133602 cmdq 0x7fa363e04aa0: bind-key -r C-Up resize-pane -U
+1448194264.133611 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133614 cmdq 0x7fa363e04aa0: bind-key -r C-Down resize-pane -D
+1448194264.133621 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133624 cmdq 0x7fa363e04aa0: bind-key -r C-Left resize-pane -L
+1448194264.133632 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133635 cmdq 0x7fa363e04aa0: bind-key -r C-Right resize-pane -R
+1448194264.133644 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133648 cmdq 0x7fa363e04aa0: bind-key -n MouseDown1Pane select-pane -t=; send-keys -M
+1448194264.133659 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133663 cmdq 0x7fa363e04aa0: bind-key -n MouseDrag1Border resize-pane -M
+1448194264.133673 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133676 cmdq 0x7fa363e04aa0: bind-key -n MouseDown1Status select-window -t=
+1448194264.133690 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133694 cmdq 0x7fa363e04aa0: bind-key -n MouseDrag1Pane if -Ft= #{mouse_any_flag} "if -Ft= "#{pane_in_mode}" "copy-mode -M" "send-keys -M"" "copy-mode -M"
+1448194264.133705 continuing cmdq 0x7fa363e04aa0: flags=0, client=-1
+1448194264.133708 cmdq 0x7fa363e04aa0: bind-key -n MouseDown3Pane select-pane -mt=
+1448194264.133829 socket path /private/var/folders/x7/zqy5jd3j52z7yxzh6_ny756w0000gn/T/tmux-501/default
+1448194264.133928 new client 7
+1448194264.133987 loading /Users/patricknolan/.tmux.conf
+1448194264.134003 /Users/patricknolan/.tmux.conf: set -g default-command "reattach-to-user-namespace -l zsh"
+1448194264.134013 /Users/patricknolan/.tmux.conf: # tmux display things in 256 colors
+1448194264.134016 /Users/patricknolan/.tmux.conf: set -g default-terminal "screen-256color"
+1448194264.134023 /Users/patricknolan/.tmux.conf: set -g status-utf8 on
+1448194264.134029 /Users/patricknolan/.tmux.conf: 
+1448194264.134032 /Users/patricknolan/.tmux.conf: set -g history-limit 20000
+1448194264.134037 /Users/patricknolan/.tmux.conf: 
+1448194264.134040 /Users/patricknolan/.tmux.conf: # automatically renumber tmux windows
+1448194264.134042 /Users/patricknolan/.tmux.conf: set -g renumber-windows on
+1448194264.134048 /Users/patricknolan/.tmux.conf: 
+1448194264.134050 /Users/patricknolan/.tmux.conf: # unbind default prefix and set it to Ctrl+a
+1448194264.134057 /Users/patricknolan/.tmux.conf: unbind C-b
+1448194264.134062 /Users/patricknolan/.tmux.conf: set -g prefix C-a
+1448194264.134068 /Users/patricknolan/.tmux.conf: bind C-a send-prefix
+1448194264.134074 /Users/patricknolan/.tmux.conf: 
+1448194264.134077 /Users/patricknolan/.tmux.conf: # for nested tmux sessions
+1448194264.134079 /Users/patricknolan/.tmux.conf: bind-key a send-prefix
+1448194264.134083 /Users/patricknolan/.tmux.conf: 
+1448194264.134086 /Users/patricknolan/.tmux.conf: # Activity Monitoring
+1448194264.134088 /Users/patricknolan/.tmux.conf: setw -g monitor-activity off
+1448194264.134094 /Users/patricknolan/.tmux.conf: set -g visual-activity off
+1448194264.134099 /Users/patricknolan/.tmux.conf: 
+1448194264.134102 /Users/patricknolan/.tmux.conf: # Rather than constraining window size to the maximum size of any client
+1448194264.134105 /Users/patricknolan/.tmux.conf: # connected to the *session*, constrain window size to the maximum size of any
+1448194264.134108 /Users/patricknolan/.tmux.conf: # client connected to *that window*. Much more reasonable.
+1448194264.134110 /Users/patricknolan/.tmux.conf: setw -g aggressive-resize on
+1448194264.134116 /Users/patricknolan/.tmux.conf: 
+1448194264.134118 /Users/patricknolan/.tmux.conf: # make delay shorter
+1448194264.134120 /Users/patricknolan/.tmux.conf: set -sg escape-time 0
+1448194264.134126 /Users/patricknolan/.tmux.conf: 
+1448194264.134128 /Users/patricknolan/.tmux.conf: # tile all windows
+1448194264.134130 /Users/patricknolan/.tmux.conf: unbind =
+1448194264.134135 /Users/patricknolan/.tmux.conf: bind = select-layout tiled
+1448194264.134140 /Users/patricknolan/.tmux.conf: 
+1448194264.134142 /Users/patricknolan/.tmux.conf: # cycle through panes
+1448194264.134145 /Users/patricknolan/.tmux.conf: # unbind C-a
+1448194264.134147 /Users/patricknolan/.tmux.conf: # unbind o # this is the default key for cycling panes
+1448194264.134150 /Users/patricknolan/.tmux.conf: # bind ^A select-pane -t:.+
+1448194264.134152 /Users/patricknolan/.tmux.conf: 
+1448194264.134154 /Users/patricknolan/.tmux.conf: # make window/pane index start with 1
+1448194264.134157 /Users/patricknolan/.tmux.conf: set -g base-index 1
+1448194264.134162 /Users/patricknolan/.tmux.conf: setw -g pane-base-index 1
+1448194264.134167 /Users/patricknolan/.tmux.conf: 
+1448194264.134169 /Users/patricknolan/.tmux.conf: # set-option -g set-titles on
+1448194264.134172 /Users/patricknolan/.tmux.conf: # set-option -g set-titles-string "#T - #W"
+1448194264.134174 /Users/patricknolan/.tmux.conf: # set-window-option -g automatic-rename on
+1448194264.134176 /Users/patricknolan/.tmux.conf: 
+1448194264.134179 /Users/patricknolan/.tmux.conf: ######################
+1448194264.134181 /Users/patricknolan/.tmux.conf: #### Key Bindings ####
+1448194264.134183 /Users/patricknolan/.tmux.conf: ######################
+1448194264.134185 /Users/patricknolan/.tmux.conf: 
+1448194264.134188 /Users/patricknolan/.tmux.conf: # reload config file
+1448194264.134190 /Users/patricknolan/.tmux.conf: bind r source-file ~/.tmux.conf \\; display "Config Reloaded!"
+1448194264.134200 /Users/patricknolan/.tmux.conf: 
+1448194264.134203 /Users/patricknolan/.tmux.conf: # quickly open a new window
+1448194264.134205 /Users/patricknolan/.tmux.conf: bind N new-window
+1448194264.134209 /Users/patricknolan/.tmux.conf: 
+1448194264.134212 /Users/patricknolan/.tmux.conf: # split window and fix path for tmux 1.9
+1448194264.134214 /Users/patricknolan/.tmux.conf: bind | split-window -h -c "#{pane_current_path}"
+1448194264.134222 /Users/patricknolan/.tmux.conf: bind - split-window -v -c "#{pane_current_path}"
+1448194264.134229 /Users/patricknolan/.tmux.conf: 
+1448194264.134231 /Users/patricknolan/.tmux.conf: # synchronize all panes in a window
+1448194264.134234 /Users/patricknolan/.tmux.conf: bind y setw synchronize-panes
+1448194264.134238 /Users/patricknolan/.tmux.conf: 
+1448194264.134241 /Users/patricknolan/.tmux.conf: # pane movement shortcuts
+1448194264.134243 /Users/patricknolan/.tmux.conf: bind h select-pane -L
+1448194264.134250 /Users/patricknolan/.tmux.conf: bind j select-pane -D
+1448194264.134255 /Users/patricknolan/.tmux.conf: bind k select-pane -U
+1448194264.134260 /Users/patricknolan/.tmux.conf: bind l select-pane -R
+1448194264.134264 /Users/patricknolan/.tmux.conf: 
+1448194264.134266 /Users/patricknolan/.tmux.conf: bind -r C-h select-window -t :-
+1448194264.134272 /Users/patricknolan/.tmux.conf: bind -r C-l select-window -t :+
+1448194264.134278 /Users/patricknolan/.tmux.conf: 
+1448194264.134280 /Users/patricknolan/.tmux.conf: # Resize pane shortcuts
+1448194264.134282 /Users/patricknolan/.tmux.conf: bind -r H resize-pane -L 10
+1448194264.134288 /Users/patricknolan/.tmux.conf: bind -r J resize-pane -D 10
+1448194264.134293 /Users/patricknolan/.tmux.conf: bind -r K resize-pane -U 10
+1448194264.134299 /Users/patricknolan/.tmux.conf: bind -r L resize-pane -R 10
+1448194264.134305 /Users/patricknolan/.tmux.conf: 
+1448194264.134308 /Users/patricknolan/.tmux.conf: # enable mouse support for switching panes/windows
+1448194264.134311 /Users/patricknolan/.tmux.conf: # NOTE: This breaks selecting/copying text on OSX
+1448194264.134313 /Users/patricknolan/.tmux.conf: # To select text as expected, hold Option to disable it (iTerm2)
+1448194264.134316 /Users/patricknolan/.tmux.conf: #setw -g mode-mouse on
+1448194264.134318 /Users/patricknolan/.tmux.conf: #set -g mouse-select-pane on
+1448194264.134320 /Users/patricknolan/.tmux.conf: #set -g mouse-resize-pane on
+1448194264.134323 /Users/patricknolan/.tmux.conf: #set -g mouse-select-window on
+1448194264.134325 /Users/patricknolan/.tmux.conf: # set -g mouse-utf8 on
+1448194264.134327 /Users/patricknolan/.tmux.conf: # set -g mouse on
+1448194264.134329 /Users/patricknolan/.tmux.conf: 
+1448194264.134332 /Users/patricknolan/.tmux.conf: # maximizing and restoring windows
+1448194264.134334 /Users/patricknolan/.tmux.conf: unbind Up
+1448194264.134339 /Users/patricknolan/.tmux.conf: bind Up new-window -d -n fullscreen \\; swap-pane -s fullscreen.1 \\; select-window -t fullscreen
+1448194264.134350 /Users/patricknolan/.tmux.conf: unbind Down
+1448194264.134355 /Users/patricknolan/.tmux.conf: bind Down last-window \\; swap-pane -s fullscreen.1 \\; kill-window -t fullscreen
+1448194264.134364 /Users/patricknolan/.tmux.conf: 
+1448194264.134366 /Users/patricknolan/.tmux.conf: # set vi mode for copy mode
+1448194264.134368 /Users/patricknolan/.tmux.conf: setw -g mode-keys vi
+1448194264.134374 /Users/patricknolan/.tmux.conf: # more settings to make copy-mode more vim-like
+1448194264.134376 /Users/patricknolan/.tmux.conf: unbind [
+1448194264.134381 /Users/patricknolan/.tmux.conf: bind Escape copy-mode
+1448194264.134385 /Users/patricknolan/.tmux.conf: unbind p
+1448194264.134390 /Users/patricknolan/.tmux.conf: bind p paste-buffer
+1448194264.134394 /Users/patricknolan/.tmux.conf: bind -t vi-copy 'v' begin-selection
+1448194264.134400 /Users/patricknolan/.tmux.conf: bind -t vi-copy 'y' copy-selection
+1448194264.134406 /Users/patricknolan/.tmux.conf: 
+1448194264.134410 /Users/patricknolan/.tmux.conf: # Buffers to/from Mac clipboard, yay tmux book from pragprog
+1448194264.134413 /Users/patricknolan/.tmux.conf: bind C-c run "tmux save-buffer - | reattach-to-user-namespace pbcopy"
+1448194264.134420 /Users/patricknolan/.tmux.conf: bind C-v run "tmux set-buffer $(reattach-to-user-namespace pbpaste); tmux paste-buffer")
+1448194264.134428 /Users/patricknolan/.tmux.conf: 
+1448194264.134430 /Users/patricknolan/.tmux.conf: ##############################
+1448194264.134432 /Users/patricknolan/.tmux.conf: ### Color & Style Settings ###
+1448194264.134435 /Users/patricknolan/.tmux.conf: ##############################
+1448194264.134437 /Users/patricknolan/.tmux.conf: 
+1448194264.134439 /Users/patricknolan/.tmux.conf: source ~/.dotfiles/tmux/theme
+1448194264.134450 continuing cmdq 0x7fa363e09260: flags=0, client=-1
+1448194264.134454 cmdq 0x7fa363e09260: set-option -g default-command "reattach-to-user-namespace -l zsh"
+1448194264.134475 cmdq 0x7fa363e09260: set-option -g default-terminal screen-256color
+1448194264.134489 cmdq 0x7fa363e09260: set-option -g status-utf8 on
+1448194264.134498 cmdq 0x7fa363e09260: set-option -g history-limit 20000
+1448194264.134505 cmdq 0x7fa363e09260: set-option -g renumber-windows on
+1448194264.134510 cmdq 0x7fa363e09260: unbind-key C-b
+1448194264.134516 cmdq 0x7fa363e09260: set-option -g prefix C-a
+1448194264.134521 cmdq 0x7fa363e09260: bind-key C-a send-prefix
+1448194264.134526 cmdq 0x7fa363e09260: bind-key a send-prefix
+1448194264.134531 cmdq 0x7fa363e09260: set-window-option -g monitor-activity off
+1448194264.134540 cmdq 0x7fa363e09260: set-option -g visual-activity off
+1448194264.134546 cmdq 0x7fa363e09260: set-window-option -g aggressive-resize on
+1448194264.134550 cmdq 0x7fa363e09260: set-option -gs escape-time 0
+1448194264.134554 cmdq 0x7fa363e09260: unbind-key =
+1448194264.134559 cmdq 0x7fa363e09260: bind-key = select-layout tiled
+1448194264.134564 cmdq 0x7fa363e09260: set-option -g base-index 1
+1448194264.134568 cmdq 0x7fa363e09260: set-window-option -g pane-base-index 1
+1448194264.134574 cmdq 0x7fa363e09260: bind-key r source-file /Users/patricknolan/.tmux.conf ; display "Config Reloaded!"
+1448194264.134581 cmdq 0x7fa363e09260: bind-key N new-window
+1448194264.134586 cmdq 0x7fa363e09260: bind-key | split-window -h -c #{pane_current_path}
+1448194264.134593 cmdq 0x7fa363e09260: bind-key - split-window -v -c #{pane_current_path}
+1448194264.134599 cmdq 0x7fa363e09260: bind-key y setw synchronize-panes
+1448194264.134604 cmdq 0x7fa363e09260: bind-key h select-pane -L
+1448194264.134610 cmdq 0x7fa363e09260: bind-key j select-pane -D
+1448194264.134615 cmdq 0x7fa363e09260: bind-key k select-pane -U
+1448194264.134619 cmdq 0x7fa363e09260: bind-key l select-pane -R
+1448194264.134625 cmdq 0x7fa363e09260: bind-key -r C-h select-window -t :-
+1448194264.134631 cmdq 0x7fa363e09260: bind-key -r C-l select-window -t :+
+1448194264.134636 cmdq 0x7fa363e09260: bind-key -r H resize-pane -L 10
+1448194264.134642 cmdq 0x7fa363e09260: bind-key -r J resize-pane -D 10
+1448194264.134648 cmdq 0x7fa363e09260: bind-key -r K resize-pane -U 10
+1448194264.134653 cmdq 0x7fa363e09260: bind-key -r L resize-pane -R 10
+1448194264.134658 cmdq 0x7fa363e09260: unbind-key Up
+1448194264.134665 cmdq 0x7fa363e09260: bind-key Up new-window -d -n fullscreen ; swap-pane -s fullscreen.1 ; select-window -t fullscreen
+1448194264.134674 cmdq 0x7fa363e09260: unbind-key Down
+1448194264.134680 cmdq 0x7fa363e09260: bind-key Down last-window ; swap-pane -s fullscreen.1 ; kill-window -t fullscreen
+1448194264.134688 cmdq 0x7fa363e09260: set-window-option -g mode-keys vi
+1448194264.134693 cmdq 0x7fa363e09260: unbind-key [
+1448194264.134697 cmdq 0x7fa363e09260: bind-key Escape copy-mode
+1448194264.134701 cmdq 0x7fa363e09260: unbind-key p
+1448194264.134705 cmdq 0x7fa363e09260: bind-key p paste-buffer
+1448194264.134710 cmdq 0x7fa363e09260: bind-key -t vi-copy v begin-selection
+1448194264.134716 cmdq 0x7fa363e09260: bind-key -t vi-copy y copy-selection
+1448194264.134721 cmdq 0x7fa363e09260: bind-key C-c run "tmux save-buffer - | reattach-to-user-namespace pbcopy"
+1448194264.134726 cmdq 0x7fa363e09260: bind-key C-v run "tmux set-buffer $(reattach-to-user-namespace pbpaste); tmux paste-buffer)"
+1448194264.134732 cmdq 0x7fa363e09260: source-file /Users/patricknolan/.dotfiles/tmux/theme
+1448194264.134735 loading /Users/patricknolan/.dotfiles/tmux/theme
+1448194264.134745 /Users/patricknolan/.dotfiles/tmux/theme: #### COLOUR
+1448194264.134748 /Users/patricknolan/.dotfiles/tmux/theme: 
+1448194264.134750 /Users/patricknolan/.dotfiles/tmux/theme: tm_icon="\342\231\237"
+1448194264.134759 /Users/patricknolan/.dotfiles/tmux/theme: tm_color_active=colour213
+1448194264.134763 /Users/patricknolan/.dotfiles/tmux/theme: tm_color_inactive=colour241
+1448194264.134767 /Users/patricknolan/.dotfiles/tmux/theme: tm_color_feature=colour4
+1448194264.134771 /Users/patricknolan/.dotfiles/tmux/theme: tm_color_music=colour203
+1448194264.134775 /Users/patricknolan/.dotfiles/tmux/theme: 
+1448194264.134777 /Users/patricknolan/.dotfiles/tmux/theme: # separators
+1448194264.134780 /Users/patricknolan/.dotfiles/tmux/theme: tm_separator_left_bold="\342\227\200"
+1448194264.134788 /Users/patricknolan/.dotfiles/tmux/theme: tm_separator_left_thin="\342\235\256"
+1448194264.134792 /Users/patricknolan/.dotfiles/tmux/theme: tm_separator_right_bold="\342\226\266"
+1448194264.134796 /Users/patricknolan/.dotfiles/tmux/theme: tm_separator_right_thin="\342\235\257"
+1448194264.134800 /Users/patricknolan/.dotfiles/tmux/theme: 
+1448194264.134802 /Users/patricknolan/.dotfiles/tmux/theme: set -g status-left-length 32
+1448194264.134809 /Users/patricknolan/.dotfiles/tmux/theme: set -g status-right-length 150
+1448194264.134815 /Users/patricknolan/.dotfiles/tmux/theme: set -g status-interval 5
+1448194264.134821 /Users/patricknolan/.dotfiles/tmux/theme: 
+1448194264.134823 /Users/patricknolan/.dotfiles/tmux/theme: 
+1448194264.134826 /Users/patricknolan/.dotfiles/tmux/theme: # default statusbar colors
+1448194264.134828 /Users/patricknolan/.dotfiles/tmux/theme: # set-option -g status-bg colour0
+1448194264.134831 /Users/patricknolan/.dotfiles/tmux/theme: set-option -g status-fg $tm_color_active
+1448194264.134838 /Users/patricknolan/.dotfiles/tmux/theme: set-option -g status-bg default
+1448194264.134844 /Users/patricknolan/.dotfiles/tmux/theme: set-option -g status-attr default
+1448194264.134849 /Users/patricknolan/.dotfiles/tmux/theme: 
+1448194264.134852 /Users/patricknolan/.dotfiles/tmux/theme: # default window title colors
+1448194264.134854 /Users/patricknolan/.dotfiles/tmux/theme: set-window-option -g window-status-fg $tm_color_inactive
+1448194264.134862 /Users/patricknolan/.dotfiles/tmux/theme: set-window-option -g window-status-bg default
+1448194264.134869 /Users/patricknolan/.dotfiles/tmux/theme: set -g window-status-format "#I #W"
+1448194264.134875 /Users/patricknolan/.dotfiles/tmux/theme: 
+1448194264.134878 /Users/patricknolan/.dotfiles/tmux/theme: # active window title colors
+1448194264.134880 /Users/patricknolan/.dotfiles/tmux/theme: set-window-option -g window-status-current-fg $tm_color_active
+1448194264.134888 /Users/patricknolan/.dotfiles/tmux/theme: set-window-option -g window-status-current-bg default
+1448194264.134895 /Users/patricknolan/.dotfiles/tmux/theme: set-window-option -g  window-status-current-format "#[bold]#I #W"
+1448194264.134902 /Users/patricknolan/.dotfiles/tmux/theme: 
+1448194264.134904 /Users/patricknolan/.dotfiles/tmux/theme: # pane border
+1448194264.134906 /Users/patricknolan/.dotfiles/tmux/theme: set-option -g pane-border-fg $tm_color_inactive
+1448194264.134913 /Users/patricknolan/.dotfiles/tmux/theme: set-option -g pane-active-border-fg $tm_color_active
+1448194264.134920 /Users/patricknolan/.dotfiles/tmux/theme: 
+1448194264.134923 /Users/patricknolan/.dotfiles/tmux/theme: # message text
+1448194264.134925 /Users/patricknolan/.dotfiles/tmux/theme: set-option -g message-bg default
+1448194264.134931 /Users/patricknolan/.dotfiles/tmux/theme: set-option -g message-fg $tm_color_active
+1448194264.134937 /Users/patricknolan/.dotfiles/tmux/theme: 
+1448194264.134939 /Users/patricknolan/.dotfiles/tmux/theme: # pane number display
+1448194264.134942 /Users/patricknolan/.dotfiles/tmux/theme: set-option -g display-panes-active-colour $tm_color_active
+1448194264.134949 /Users/patricknolan/.dotfiles/tmux/theme: set-option -g display-panes-colour $tm_color_inactive
+1448194264.134956 /Users/patricknolan/.dotfiles/tmux/theme: 
+1448194264.134958 /Users/patricknolan/.dotfiles/tmux/theme: # clock
+1448194264.134961 /Users/patricknolan/.dotfiles/tmux/theme: set-window-option -g clock-mode-colour $tm_color_active
+1448194264.134968 /Users/patricknolan/.dotfiles/tmux/theme: 
+1448194264.134971 /Users/patricknolan/.dotfiles/tmux/theme: tm_spotify="#[fg=$tm_color_music]#(osascript ~/.dotfiles/applescripts/spotify.scpt)"
+1448194264.134978 /Users/patricknolan/.dotfiles/tmux/theme: tm_itunes="#[fg=$tm_color_music]#(osascript ~/.dotfiles/applescripts/itunes.scpt)"
+1448194264.134984 /Users/patricknolan/.dotfiles/tmux/theme: tm_rdio="#[fg=$tm_color_music]#(osascript ~/.dotfiles/applescripts/rdio.scpt)"
+1448194264.134991 /Users/patricknolan/.dotfiles/tmux/theme: tm_battery="#(~/.dotfiles/bin/battery_indicator.sh)"
+1448194264.134999 /Users/patricknolan/.dotfiles/tmux/theme: 
+1448194264.135001 /Users/patricknolan/.dotfiles/tmux/theme: tm_date="#[fg=$tm_color_inactive] %R %d %b"
+1448194264.135007 /Users/patricknolan/.dotfiles/tmux/theme: tm_host="#[fg=$tm_color_feature,bold]#h"
+1448194264.135012 /Users/patricknolan/.dotfiles/tmux/theme: tm_session_name="#[fg=$tm_color_feature,bold]$tm_icon #S"
+1448194264.135018 /Users/patricknolan/.dotfiles/tmux/theme: 
+1448194264.135020 /Users/patricknolan/.dotfiles/tmux/theme: set -g status-left $tm_session_name
+1448194264.135027 /Users/patricknolan/.dotfiles/tmux/theme: set -g status-right $tm_itunes' '$tm_rdio' '$tm_spotify' '$tm_date' '$tm_host
+1448194264.135041 continuing cmdq 0x7fa363e0ce30: flags=0, client=-1
+1448194264.135045 cmdq 0x7fa363e0ce30: set-option -g status-left-length 32
+1448194264.135050 cmdq 0x7fa363e0ce30: set-option -g status-right-length 150
+1448194264.135055 cmdq 0x7fa363e0ce30: set-option -g status-interval 5
+1448194264.135062 cmdq 0x7fa363e0ce30: set-option -g status-fg colour213
+1448194264.135071 cmdq 0x7fa363e0ce30: set-option -g status-bg default
+1448194264.135076 cmdq 0x7fa363e0ce30: set-option -g status-attr default
+1448194264.135081 cmdq 0x7fa363e0ce30: set-window-option -g window-status-fg colour241
+1448194264.135087 cmdq 0x7fa363e0ce30: set-window-option -g window-status-bg default
+1448194264.135092 cmdq 0x7fa363e0ce30: set-option -g window-status-format "#I #W"
+1448194264.135097 cmdq 0x7fa363e0ce30: set-window-option -g window-status-current-fg colour213
+1448194264.135102 cmdq 0x7fa363e0ce30: set-window-option -g window-status-current-bg default
+1448194264.135108 cmdq 0x7fa363e0ce30: set-window-option -g window-status-current-format "#[bold]#I #W"
+1448194264.135113 cmdq 0x7fa363e0ce30: set-option -g pane-border-fg colour241
+1448194264.135118 cmdq 0x7fa363e0ce30: set-option -g pane-active-border-fg colour213
+1448194264.135122 cmdq 0x7fa363e0ce30: set-option -g message-bg default
+1448194264.135127 cmdq 0x7fa363e0ce30: set-option -g message-fg colour213
+1448194264.135132 cmdq 0x7fa363e0ce30: set-option -g display-panes-active-colour colour213
+1448194264.135136 cmdq 0x7fa363e0ce30: set-option -g display-panes-colour colour241
+1448194264.135141 cmdq 0x7fa363e0ce30: set-window-option -g clock-mode-colour colour213
+1448194264.135145 cmdq 0x7fa363e0ce30: set-option -g status-left "#[fg=colour4,bold]\342\231\237 #S"
+1448194264.135154 cmdq 0x7fa363e0ce30: set-option -g status-right "#[fg=colour203]#(osascript ~/.dotfiles/applescripts/itunes.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/rdio.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/spotify.scpt) #[fg=colour241] %R %d %b #[fg=colour4,bold]#h"
+1448194264.135161 continuing cmdq 0x7fa363e09260: flags=0, client=-1
+1448194264.135164 unref client 7 (2 references)
+1448194264.135172 event dispatch enter
+1448194264.135234 got 100 from client 7
+1448194264.135240 got 101 from client 7
+1448194264.135243 got 102 from client 7
+1448194264.135245 got 103 from client 7
+1448194264.135260 event dispatch exit
+1448194264.135262 event dispatch enter
+1448194264.135277 got 104 from client 7
+1448194264.135280 got 107 from client 7
+1448194264.135283 got 105 from client 7
+1448194264.135286 got 105 from client 7
+1448194264.135288 got 105 from client 7
+1448194264.135291 got 105 from client 7
+1448194264.135294 got 105 from client 7
+1448194264.135296 got 105 from client 7
+1448194264.135299 got 105 from client 7
+1448194264.135302 got 105 from client 7
+1448194264.135304 got 105 from client 7
+1448194264.135307 got 105 from client 7
+1448194264.135310 got 105 from client 7
+1448194264.135312 got 105 from client 7
+1448194264.135315 got 105 from client 7
+1448194264.135317 got 105 from client 7
+1448194264.135320 got 105 from client 7
+1448194264.135323 got 105 from client 7
+1448194264.135325 got 105 from client 7
+1448194264.135328 got 105 from client 7
+1448194264.135331 got 105 from client 7
+1448194264.135333 got 105 from client 7
+1448194264.135336 got 105 from client 7
+1448194264.135343 got 105 from client 7
+1448194264.135346 got 105 from client 7
+1448194264.135349 got 105 from client 7
+1448194264.135351 got 105 from client 7
+1448194264.135354 got 105 from client 7
+1448194264.135356 got 105 from client 7
+1448194264.135359 got 105 from client 7
+1448194264.135362 got 106 from client 7
+1448194264.135952 got 200 from client 7
+1448194264.135959 continuing cmdq 0x7fa363e04aa0: flags=0, client=7
+1448194264.135962 cmdq 0x7fa363e04aa0: new-session
+1448194264.135969 new term: xterm-256color
+1448194264.136223 xterm-256color override: XT 
+1448194264.136229 xterm-256color override: Ms \033]52;%p1%s;%p2%s\a
+1448194264.136232 xterm-256color override: Cs \033]12;%p1%s\a
+1448194264.136236 xterm-256color override: Cr \033]112\a
+1448194264.136238 xterm-256color override: Ss \033[%p1%d q
+1448194264.136241 xterm-256color override: Se \033[2 q
+1448194264.136285 new key \033Oo: 0x103c (KP/)
+1448194264.136289 new key \033Oj: 0x103d (KP*)
+1448194264.136291 new key \033Om: 0x103e (KP-)
+1448194264.136293 new key \033Ow: 0x103f (KP7)
+1448194264.136296 new key \033Ox: 0x1040 (KP8)
+1448194264.136298 new key \033Oy: 0x1041 (KP9)
+1448194264.136300 new key \033Ok: 0x1042 (KP+)
+1448194264.136302 new key \033Ot: 0x1043 (KP4)
+1448194264.136305 new key \033Ou: 0x1044 (KP5)
+1448194264.136307 new key \033Ov: 0x1045 (KP6)
+1448194264.136309 new key \033Oq: 0x1046 (KP1)
+1448194264.136311 new key \033Or: 0x1047 (KP2)
+1448194264.136314 new key \033Os: 0x1048 (KP3)
+1448194264.136316 new key \033OM: 0x1049 (KPEnter)
+1448194264.136318 new key \033Op: 0x104a (KP0)
+1448194264.136321 new key \033On: 0x104b (KP.)
+1448194264.136323 new key \033OA: 0x1038 (Up)
+1448194264.136325 new key \033OB: 0x1039 (Down)
+1448194264.136328 new key \033OC: 0x103b (Right)
+1448194264.136330 new key \033OD: 0x103a (Left)
+1448194264.136332 new key \033[A: 0x1038 (Up)
+1448194264.136334 new key \033[B: 0x1039 (Down)
+1448194264.136337 new key \033[C: 0x103b (Right)
+1448194264.136339 new key \033[D: 0x103a (Left)
+1448194264.136341 new key \033OH: 0x1033 (Home)
+1448194264.136343 new key \033OF: 0x1034 (End)
+1448194264.136346 new key \033[H: 0x1033 (Home)
+1448194264.136348 new key \033[F: 0x1034 (End)
+1448194264.136360 new key \033Oa: 0x5038 (C-Up)
+1448194264.136362 new key \033Ob: 0x5039 (C-Down)
+1448194264.136364 new key \033Oc: 0x503b (C-Right)
+1448194264.136367 new key \033Od: 0x503a (C-Left)
+1448194264.136369 new key \033[a: 0x9038 (S-Up)
+1448194264.136371 new key \033[b: 0x9039 (S-Down)
+1448194264.136373 new key \033[c: 0x903b (S-Right)
+1448194264.136376 new key \033[d: 0x903a (S-Left)
+1448194264.136378 new key \033[11^: 0x5025 (C-F1)
+1448194264.136380 new key \033[12^: 0x5026 (C-F2)
+1448194264.136383 new key \033[13^: 0x5027 (C-F3)
+1448194264.136396 new key \033[14^: 0x5028 (C-F4)
+1448194264.136398 new key \033[15^: 0x5029 (C-F5)
+1448194264.136400 new key \033[17^: 0x502a (C-F6)
+1448194264.136403 new key \033[18^: 0x502b (C-F7)
+1448194264.136405 new key \033[19^: 0x502c (C-F8)
+1448194264.136407 new key \033[20^: 0x502d (C-F9)
+1448194264.136410 new key \033[21^: 0x502e (C-F10)
+1448194264.136412 new key \033[23^: 0x502f (C-F11)
+1448194264.136415 new key \033[24^: 0x5030 (C-F12)
+1448194264.136417 new key \033[2^: 0x5031 (C-IC)
+1448194264.136420 new key \033[3^: 0x5032 (C-DC)
+1448194264.136422 new key \033[7^: 0x5033 (C-Home)
+1448194264.136425 new key \033[8^: 0x5034 (C-End)
+1448194264.136427 new key \033[6^: 0x5035 (C-NPage)
+1448194264.136430 new key \033[5^: 0x5036 (C-PPage)
+1448194264.136442 new key \033[11$: 0x9025 (S-F1)
+1448194264.136444 new key \033[12$: 0x9026 (S-F2)
+1448194264.136446 new key \033[13$: 0x9027 (S-F3)
+1448194264.136449 new key \033[14$: 0x9028 (S-F4)
+1448194264.136451 new key \033[15$: 0x9029 (S-F5)
+1448194264.136453 new key \033[17$: 0x902a (S-F6)
+1448194264.136455 new key \033[18$: 0x902b (S-F7)
+1448194264.136468 new key \033[19$: 0x902c (S-F8)
+1448194264.136470 new key \033[20$: 0x902d (S-F9)
+1448194264.136473 new key \033[21$: 0x902e (S-F10)
+1448194264.136475 new key \033[23$: 0x902f (S-F11)
+1448194264.136477 new key \033[24$: 0x9030 (S-F12)
+1448194264.136495 new key \033[2$: 0x9031 (S-IC)
+1448194264.136497 new key \033[3$: 0x9032 (S-DC)
+1448194264.136514 new key \033[7$: 0x9033 (S-Home)
+1448194264.136517 new key \033[8$: 0x9034 (S-End)
+1448194264.136519 new key \033[6$: 0x9035 (S-NPage)
+1448194264.136531 new key \033[5$: 0x9036 (S-PPage)
+1448194264.136533 new key \033[11@: 0xd025 (C-S-F1)
+1448194264.136536 new key \033[12@: 0xd026 (C-S-F2)
+1448194264.136538 new key \033[13@: 0xd027 (C-S-F3)
+1448194264.136540 new key \033[14@: 0xd028 (C-S-F4)
+1448194264.136542 new key \033[15@: 0xd029 (C-S-F5)
+1448194264.136545 new key \033[17@: 0xd02a (C-S-F6)
+1448194264.136547 new key \033[18@: 0xd02b (C-S-F7)
+1448194264.136549 new key \033[19@: 0xd02c (C-S-F8)
+1448194264.136551 new key \033[20@: 0xd02d (C-S-F9)
+1448194264.136554 new key \033[21@: 0xd02e (C-S-F10)
+1448194264.136556 new key \033[23@: 0xd02f (C-S-F11)
+1448194264.136558 new key \033[24@: 0xd030 (C-S-F12)
+1448194264.136561 new key \033[2@: 0xd031 (C-S-IC)
+1448194264.136563 new key \033[3@: 0xd032 (C-S-DC)
+1448194264.136565 new key \033[7@: 0xd033 (C-S-Home)
+1448194264.136567 new key \033[8@: 0xd034 (C-S-End)
+1448194264.136570 new key \033[6@: 0xd035 (C-S-NPage)
+1448194264.136572 new key \033[5@: 0xd036 (C-S-PPage)
+1448194264.136574 new key \033[I: 0x1000 ((null))
+1448194264.136577 new key \033[O: 0x1001 ((null))
+1448194264.136579 new key \033OP: 0x1025 (F1)
+1448194264.136581 new key \033OQ: 0x1026 (F2)
+1448194264.136583 new key \033OR: 0x1027 (F3)
+1448194264.136586 new key \033OS: 0x1028 (F4)
+1448194264.136588 new key \033[15~: 0x1029 (F5)
+1448194264.136590 new key \033[17~: 0x102a (F6)
+1448194264.136592 new key \033[18~: 0x102b (F7)
+1448194264.136594 new key \033[19~: 0x102c (F8)
+1448194264.136597 new key \033[20~: 0x102d (F9)
+1448194264.136599 new key \033[21~: 0x102e (F10)
+1448194264.136601 new key \033[23~: 0x102f (F11)
+1448194264.136603 new key \033[24~: 0x1030 (F12)
+1448194264.136606 new key \033[1;2P: 0x9025 (S-F1)
+1448194264.136608 new key \033[1;2Q: 0x9026 (S-F2)
+1448194264.136610 new key \033[1;2R: 0x9027 (S-F3)
+1448194264.136613 new key \033[1;2S: 0x9028 (S-F4)
+1448194264.136615 new key \033[15;2~: 0x9029 (S-F5)
+1448194264.136617 new key \033[17;2~: 0x902a (S-F6)
+1448194264.136620 new key \033[18;2~: 0x902b (S-F7)
+1448194264.136622 new key \033[19;2~: 0x902c (S-F8)
+1448194264.136624 new key \033[20;2~: 0x902d (S-F9)
+1448194264.136627 new key \033[21;2~: 0x902e (S-F10)
+1448194264.136629 new key \033[23;2~: 0x902f (S-F11)
+1448194264.136631 new key \033[24;2~: 0x9030 (S-F12)
+1448194264.136634 new key \033[1;5P: 0x5025 (C-F1)
+1448194264.136636 new key \033[1;5Q: 0x5026 (C-F2)
+1448194264.136638 new key \033[1;5R: 0x5027 (C-F3)
+1448194264.136641 new key \033[1;5S: 0x5028 (C-F4)
+1448194264.136643 new key \033[15;5~: 0x5029 (C-F5)
+1448194264.136645 new key \033[17;5~: 0x502a (C-F6)
+1448194264.136648 new key \033[18;5~: 0x502b (C-F7)
+1448194264.136650 new key \033[19;5~: 0x502c (C-F8)
+1448194264.136652 new key \033[20;5~: 0x502d (C-F9)
+1448194264.136654 new key \033[21;5~: 0x502e (C-F10)
+1448194264.136657 new key \033[23;5~: 0x502f (C-F11)
+1448194264.136659 new key \033[24;5~: 0x5030 (C-F12)
+1448194264.136661 new key \033[1;6P: 0xd025 (C-S-F1)
+1448194264.136664 new key \033[1;6Q: 0xd026 (C-S-F2)
+1448194264.136666 new key \033[1;6R: 0xd027 (C-S-F3)
+1448194264.136668 new key \033[1;6S: 0xd028 (C-S-F4)
+1448194264.136671 new key \033[15;6~: 0xd029 (C-S-F5)
+1448194264.136673 new key \033[17;6~: 0xd02a (C-S-F6)
+1448194264.136675 new key \033[18;6~: 0xd02b (C-S-F7)
+1448194264.136678 new key \033[19;6~: 0xd02c (C-S-F8)
+1448194264.136680 new key \033[20;6~: 0xd02d (C-S-F9)
+1448194264.136682 new key \033[21;6~: 0xd02e (C-S-F10)
+1448194264.136685 new key \033[23;6~: 0xd02f (C-S-F11)
+1448194264.136687 new key \033[24;6~: 0xd030 (C-S-F12)
+1448194264.136689 new key \033[1;3P: 0x3025 (M-F1)
+1448194264.136692 new key \033[1;3Q: 0x3026 (M-F2)
+1448194264.136694 new key \033[1;3R: 0x3027 (M-F3)
+1448194264.136696 new key \033[1;3S: 0x3028 (M-F4)
+1448194264.136699 new key \033[15;3~: 0x3029 (M-F5)
+1448194264.136704 new key \033[17;3~: 0x302a (M-F6)
+1448194264.136706 new key \033[18;3~: 0x302b (M-F7)
+1448194264.136708 new key \033[19;3~: 0x302c (M-F8)
+1448194264.136711 new key \033[20;3~: 0x302d (M-F9)
+1448194264.136713 new key \033[21;3~: 0x302e (M-F10)
+1448194264.136715 new key \033[23;3~: 0x302f (M-F11)
+1448194264.136717 new key \033[24;3~: 0x3030 (M-F12)
+1448194264.136721 new key \033[1;4P: 0xb025 (M-S-F1)
+1448194264.136724 new key \033[1;4Q: 0xb026 (M-S-F2)
+1448194264.136726 new key \033[1;4R: 0xb027 (M-S-F3)
+1448194264.136728 new key \033[2~: 0x1031 (IC)
+1448194264.136731 new key \033[3~: 0x1032 (DC)
+1448194264.136733 replacing key \033OH: 0x1033 (Home)
+1448194264.136735 replacing key \033OF: 0x1034 (End)
+1448194264.136738 new key \033[6~: 0x1035 (NPage)
+1448194264.136740 new key \033[5~: 0x1036 (PPage)
+1448194264.136742 new key \033[Z: 0x1037 (BTab)
+1448194264.136744 replacing key \033OA: 0x1038 (Up)
+1448194264.136747 replacing key \033OB: 0x1039 (Down)
+1448194264.136749 replacing key \033OD: 0x103a (Left)
+1448194264.136751 replacing key \033OC: 0x103b (Right)
+1448194264.136753 new key \033[3;2~: 0x9032 (S-DC)
+1448194264.136756 new key \033[3;3~: 0x3032 (M-DC)
+1448194264.136758 new key \033[3;4~: 0xb032 (M-S-DC)
+1448194264.136760 new key \033[3;5~: 0x5032 (C-DC)
+1448194264.136763 new key \033[3;6~: 0xd032 (C-S-DC)
+1448194264.136765 new key \033[3;7~: 0x7032 (C-M-DC)
+1448194264.136767 new key \033[1;2B: 0x9039 (S-Down)
+1448194264.136770 new key \033[1;3B: 0x3039 (M-Down)
+1448194264.136772 new key \033[1;4B: 0xb039 (M-S-Down)
+1448194264.136774 new key \033[1;5B: 0x5039 (C-Down)
+1448194264.136777 new key \033[1;6B: 0xd039 (C-S-Down)
+1448194264.136779 new key \033[1;7B: 0x7039 (C-M-Down)
+1448194264.136781 new key \033[1;2F: 0x9034 (S-End)
+1448194264.136783 new key \033[1;3F: 0x3034 (M-End)
+1448194264.136786 new key \033[1;4F: 0xb034 (M-S-End)
+1448194264.136788 new key \033[1;5F: 0x5034 (C-End)
+1448194264.136790 new key \033[1;6F: 0xd034 (C-S-End)
+1448194264.136793 new key \033[1;7F: 0x7034 (C-M-End)
+1448194264.136795 new key \033[1;2H: 0x9033 (S-Home)
+1448194264.136797 new key \033[1;3H: 0x3033 (M-Home)
+1448194264.136800 new key \033[1;4H: 0xb033 (M-S-Home)
+1448194264.136802 new key \033[1;5H: 0x5033 (C-Home)
+1448194264.136804 new key \033[1;6H: 0xd033 (C-S-Home)
+1448194264.136807 new key \033[1;7H: 0x7033 (C-M-Home)
+1448194264.136809 new key \033[2;2~: 0x9031 (S-IC)
+1448194264.136811 new key \033[2;3~: 0x3031 (M-IC)
+1448194264.136814 new key \033[2;4~: 0xb031 (M-S-IC)
+1448194264.136816 new key \033[2;5~: 0x5031 (C-IC)
+1448194264.136818 new key \033[2;6~: 0xd031 (C-S-IC)
+1448194264.136821 new key \033[2;7~: 0x7031 (C-M-IC)
+1448194264.136823 new key \033[1;2D: 0x903a (S-Left)
+1448194264.136825 new key \033[1;3D: 0x303a (M-Left)
+1448194264.136828 new key \033[1;4D: 0xb03a (M-S-Left)
+1448194264.136830 new key \033[1;5D: 0x503a (C-Left)
+1448194264.136833 new key \033[1;6D: 0xd03a (C-S-Left)
+1448194264.136835 new key \033[1;7D: 0x703a (C-M-Left)
+1448194264.136837 new key \033[6;2~: 0x9035 (S-NPage)
+1448194264.136840 new key \033[6;3~: 0x3035 (M-NPage)
+1448194264.136842 new key \033[6;4~: 0xb035 (M-S-NPage)
+1448194264.136844 new key \033[6;5~: 0x5035 (C-NPage)
+1448194264.136847 new key \033[6;6~: 0xd035 (C-S-NPage)
+1448194264.136849 new key \033[6;7~: 0x7035 (C-M-NPage)
+1448194264.136851 new key \033[5;2~: 0x9036 (S-PPage)
+1448194264.136854 new key \033[5;3~: 0x3036 (M-PPage)
+1448194264.136856 new key \033[5;4~: 0xb036 (M-S-PPage)
+1448194264.136859 new key \033[5;5~: 0x5036 (C-PPage)
+1448194264.136861 new key \033[5;6~: 0xd036 (C-S-PPage)
+1448194264.136863 new key \033[5;7~: 0x7036 (C-M-PPage)
+1448194264.136866 new key \033[1;2C: 0x903b (S-Right)
+1448194264.136868 new key \033[1;3C: 0x303b (M-Right)
+1448194264.136870 new key \033[1;4C: 0xb03b (M-S-Right)
+1448194264.136873 new key \033[1;5C: 0x503b (C-Right)
+1448194264.136875 new key \033[1;6C: 0xd03b (C-S-Right)
+1448194264.136877 new key \033[1;7C: 0x703b (C-M-Right)
+1448194264.136880 new key \033[1;2A: 0x9038 (S-Up)
+1448194264.136882 new key \033[1;3A: 0x3038 (M-Up)
+1448194264.136887 new key \033[1;4A: 0xb038 (M-S-Up)
+1448194264.136889 new key \033[1;5A: 0x5038 (C-Up)
+1448194264.136891 new key \033[1;6A: 0xd038 (C-S-Up)
+1448194264.136894 new key \033[1;7A: 0x7038 (C-M-Up)
+1448194264.136926 @0 alerts flags added 0x2
+1448194264.136941 spawn: /bin/zsh -- reattach-to-user-namespace -l zsh
+1448194264.136944 spawn: argv[0] = reattach-to-user-namespace -l zsh
+1448194264.137139 @0 alerts timer reset 0
+1448194264.137153 session 0 created
+1448194264.137163 writing 207 to client 7
+1448194264.137172 client 7, status interval 5
+1448194264.137196 session 0 has 3 references
+1448194264.137199 session 0 has 2 references
+1448194264.137202 unref client 7 (2 references)
+1448194264.137208 event dispatch exit
+1448194264.137595 format '#[fg=colour4,bold]\342\231\237 #S' -> '#[fg=colour4,bold]\342\231\237 0'
+1448194264.137862 format 'osascript ~/.dotfiles/applescripts/itunes.scpt' -> 'osascript ~/.dotfiles/applescripts/itunes.scpt'
+1448194264.138032 run job 0x7fa363e15510: osascript ~/.dotfiles/applescripts/itunes.scpt, pid 70022
+1448194264.138049 format 'osascript ~/.dotfiles/applescripts/rdio.scpt' -> 'osascript ~/.dotfiles/applescripts/rdio.scpt'
+1448194264.138194 run job 0x7fa363e15a40: osascript ~/.dotfiles/applescripts/rdio.scpt, pid 70023
+1448194264.138209 format 'osascript ~/.dotfiles/applescripts/spotify.scpt' -> 'osascript ~/.dotfiles/applescripts/spotify.scpt'
+1448194264.138374 run job 0x7fa363e15fa0: osascript ~/.dotfiles/applescripts/spotify.scpt, pid 70024
+1448194264.138413 format '#[fg=colour203]#(osascript ~/.dotfiles/applescripts/itunes.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/rdio.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/spotify.scpt) #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]#h' -> '#[fg=colour203]<'osascript ~/.dotfiles/applescripts/itunes.scpt' not ready> #[fg=colour203]<'osascript ~/.dotfiles/applescripts/rdio.scpt' not ready> #[fg=colour203]<'osascript ~/.dotfiles/applescripts/spotify.scpt' not ready> #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]Patricks-MacBook-Pro'
+1448194264.138961 format '#[bold]#I #W' -> '#[bold]1 reattach-to-user-namespace'
+1448194264.139661 @0 active pane not changed
+1448194264.139671 event dispatch enter
+1448194264.139719 job write 0x7fa363e15510: osascript ~/.dotfiles/applescripts/itunes.scpt, pid 70022, output left 0
+1448194264.139732 job write 0x7fa363e15a40: osascript ~/.dotfiles/applescripts/rdio.scpt, pid 70023, output left 0
+1448194264.139739 job write 0x7fa363e15fa0: osascript ~/.dotfiles/applescripts/spotify.scpt, pid 70024, output left 0
+1448194264.139783 event dispatch exit
+1448194264.139791 @0 active pane not changed
+1448194264.139795 event dispatch enter
+1448194264.139945 got 208 from client 7
+1448194264.139959 event dispatch exit
+1448194264.139966 @0 active pane not changed
+1448194264.139970 event dispatch enter
+1448194264.211352 job error 0x7fa363e15fa0: osascript ~/.dotfiles/applescripts/spotify.scpt, pid 70024
+1448194264.211365 event dispatch exit
+1448194264.211376 @0 active pane not changed
+1448194264.211380 event dispatch enter
+1448194264.211561 job died 0x7fa363e15fa0: osascript ~/.dotfiles/applescripts/spotify.scpt, pid 70024
+1448194264.211577 format_job_callback: osascript ~/.dotfiles/applescripts/spotify.scpt: 
+1448194264.211583 free job 0x7fa363e15fa0: osascript ~/.dotfiles/applescripts/spotify.scpt
+1448194264.211660 event dispatch exit
+1448194264.212362 format '#[fg=colour4,bold]\342\231\237 #S' -> '#[fg=colour4,bold]\342\231\237 0'
+1448194264.213317 format 'osascript ~/.dotfiles/applescripts/itunes.scpt' -> 'osascript ~/.dotfiles/applescripts/itunes.scpt'
+1448194264.213333 format 'osascript ~/.dotfiles/applescripts/rdio.scpt' -> 'osascript ~/.dotfiles/applescripts/rdio.scpt'
+1448194264.213342 format 'osascript ~/.dotfiles/applescripts/spotify.scpt' -> 'osascript ~/.dotfiles/applescripts/spotify.scpt'
+1448194264.213363 format '#[fg=colour203]#(osascript ~/.dotfiles/applescripts/itunes.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/rdio.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/spotify.scpt) #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]#h' -> '#[fg=colour203]<'osascript ~/.dotfiles/applescripts/itunes.scpt' not ready> #[fg=colour203]<'osascript ~/.dotfiles/applescripts/rdio.scpt' not ready> #[fg=colour203] #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]Patricks-MacBook-Pro'
+1448194264.214695 format '#[bold]#I #W' -> '#[bold]1 reattach-to-user-namespace'
+1448194264.214897 @0 active pane not changed
+1448194264.214909 event dispatch enter
+1448194264.215008 event dispatch exit
+1448194264.215023 @0 active pane not changed
+1448194264.215028 event dispatch enter
+1448194264.217981 job error 0x7fa363e15510: osascript ~/.dotfiles/applescripts/itunes.scpt, pid 70022
+1448194264.217996 event dispatch exit
+1448194264.218006 @0 active pane not changed
+1448194264.218011 event dispatch enter
+1448194264.218165 job died 0x7fa363e15510: osascript ~/.dotfiles/applescripts/itunes.scpt, pid 70022
+1448194264.218178 format_job_callback: osascript ~/.dotfiles/applescripts/itunes.scpt: 
+1448194264.218184 free job 0x7fa363e15510: osascript ~/.dotfiles/applescripts/itunes.scpt
+1448194264.218259 event dispatch exit
+1448194264.218898 format '#[fg=colour4,bold]\342\231\237 #S' -> '#[fg=colour4,bold]\342\231\237 0'
+1448194264.219463 format 'osascript ~/.dotfiles/applescripts/itunes.scpt' -> 'osascript ~/.dotfiles/applescripts/itunes.scpt'
+1448194264.219476 format 'osascript ~/.dotfiles/applescripts/rdio.scpt' -> 'osascript ~/.dotfiles/applescripts/rdio.scpt'
+1448194264.219484 format 'osascript ~/.dotfiles/applescripts/spotify.scpt' -> 'osascript ~/.dotfiles/applescripts/spotify.scpt'
+1448194264.219505 format '#[fg=colour203]#(osascript ~/.dotfiles/applescripts/itunes.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/rdio.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/spotify.scpt) #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]#h' -> '#[fg=colour203] #[fg=colour203]<'osascript ~/.dotfiles/applescripts/rdio.scpt' not ready> #[fg=colour203] #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]Patricks-MacBook-Pro'
+1448194264.220075 format '#[bold]#I #W' -> '#[bold]1 reattach-to-user-namespace'
+1448194264.220232 @0 active pane not changed
+1448194264.220238 event dispatch enter
+1448194264.220268 event dispatch exit
+1448194264.220276 @0 active pane not changed
+1448194264.220280 event dispatch enter
+1448194264.224972 job error 0x7fa363e15a40: osascript ~/.dotfiles/applescripts/rdio.scpt, pid 70023
+1448194264.224982 event dispatch exit
+1448194264.224988 @0 active pane not changed
+1448194264.224991 event dispatch enter
+1448194264.225074 job died 0x7fa363e15a40: osascript ~/.dotfiles/applescripts/rdio.scpt, pid 70023
+1448194264.225088 format_job_callback: osascript ~/.dotfiles/applescripts/rdio.scpt: 
+1448194264.225094 free job 0x7fa363e15a40: osascript ~/.dotfiles/applescripts/rdio.scpt
+1448194264.225151 event dispatch exit
+1448194264.225752 format '#[fg=colour4,bold]\342\231\237 #S' -> '#[fg=colour4,bold]\342\231\237 0'
+1448194264.226061 format 'osascript ~/.dotfiles/applescripts/itunes.scpt' -> 'osascript ~/.dotfiles/applescripts/itunes.scpt'
+1448194264.226069 format 'osascript ~/.dotfiles/applescripts/rdio.scpt' -> 'osascript ~/.dotfiles/applescripts/rdio.scpt'
+1448194264.226072 format 'osascript ~/.dotfiles/applescripts/spotify.scpt' -> 'osascript ~/.dotfiles/applescripts/spotify.scpt'
+1448194264.226088 format '#[fg=colour203]#(osascript ~/.dotfiles/applescripts/itunes.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/rdio.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/spotify.scpt) #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]#h' -> '#[fg=colour203] #[fg=colour203] #[fg=colour203] #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]Patricks-MacBook-Pro'
+1448194264.226445 format '#[bold]#I #W' -> '#[bold]1 reattach-to-user-namespace'
+1448194264.226527 @0 active pane not changed
+1448194264.226531 event dispatch enter
+1448194264.226552 event dispatch exit
+1448194264.226556 @0 active pane not changed
+1448194264.226559 event dispatch enter
+1448194264.327408 %0 has 296 bytes
+1448194264.327422 @0 alerts timer reset 0
+1448194264.327446 input_parse: %0 ground, 296 bytes: \033[1m\033[3m%\033[23m\033[1m\033[0m                                                                                                                                                                                                                                                                               \r \r
+1448194264.327456 input_csi_dispatch: 'm' "" "1"
+1448194264.327463 input_csi_dispatch: 'm' "" "3"
+1448194264.327475 input_csi_dispatch: 'm' "" "23"
+1448194264.327478 input_csi_dispatch: 'm' "" "1"
+1448194264.327480 input_csi_dispatch: 'm' "" "0"
+1448194264.327586 input_c0_dispatch: '\r'
+1448194264.327590 input_c0_dispatch: '\r'
+1448194264.327593 event dispatch exit
+1448194264.327598 @0 active pane changed
+1448194264.327701 format '#{pane_current_command}' -> 'zsh'
+1448194264.327706 format '' -> ''
+1448194264.327709 format '#{?pane_in_mode,[tmux],#{pane_current_command}}#{?pane_dead,[dead],}' -> 'zsh'
+1448194264.327723 @0 new name zsh (was reattach-to-user-namespace)
+1448194264.327729 event dispatch enter
+1448194264.327750 %0 has 19 bytes
+1448194264.327753 @0 alerts timer reset 0
+1448194264.327756 input_parse: %0 ground, 19 bytes: \033k..dotfiles/tmux\033\\
+1448194264.327759 input_enter_rename
+1448194264.327762 input_exit_rename: "..dotfiles/tmux"
+1448194264.327765 input_esc_dispatch: '\\', 
+1448194264.327768 input_esc_dispatch: unknown '\\'
+1448194264.327770 event dispatch exit
+1448194264.328059 format '#[fg=colour4,bold]\342\231\237 #S' -> '#[fg=colour4,bold]\342\231\237 0'
+1448194264.328319 format 'osascript ~/.dotfiles/applescripts/itunes.scpt' -> 'osascript ~/.dotfiles/applescripts/itunes.scpt'
+1448194264.328324 format 'osascript ~/.dotfiles/applescripts/rdio.scpt' -> 'osascript ~/.dotfiles/applescripts/rdio.scpt'
+1448194264.328328 format 'osascript ~/.dotfiles/applescripts/spotify.scpt' -> 'osascript ~/.dotfiles/applescripts/spotify.scpt'
+1448194264.328339 format '#[fg=colour203]#(osascript ~/.dotfiles/applescripts/itunes.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/rdio.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/spotify.scpt) #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]#h' -> '#[fg=colour203] #[fg=colour203] #[fg=colour203] #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]Patricks-MacBook-Pro'
+1448194264.328606 format '#[bold]#I #W' -> '#[bold]1 ..dotfiles/tmux'
+1448194264.328667 event dispatch enter
+1448194264.328684 event dispatch exit
+1448194264.328687 event dispatch enter
+1448194264.341734 %0 has 115 bytes
+1448194264.341748 @0 alerts timer reset 0
+1448194264.341754 input_parse: %0 ground, 115 bytes: \r\033[0m\033[23m\033[24m\033[J\033[01;32m\342\236\234 \033[01;32m \033[36mtmux \033[01;34mgit:(\033[31mmaster\033[34m) \033[33m\342\234\227\033[00m\033[00m\033[01;34m \033[00m\033[K
+1448194264.341758 input_c0_dispatch: '\r'
+1448194264.341762 input_csi_dispatch: 'm' "" "0"
+1448194264.341766 input_csi_dispatch: 'm' "" "23"
+1448194264.341769 input_csi_dispatch: 'm' "" "24"
+1448194264.341771 input_csi_dispatch: 'J' "" ""
+1448194264.341797 input_csi_dispatch: 'm' "" "01"
+1448194264.341800 input_utf8_open
+1448194264.341803 input_utf8_add
+1448194264.341805 input_utf8_close
+1448194264.341813 input_csi_dispatch: 'm' "" "01"
+1448194264.341817 input_csi_dispatch: 'm' "" "36"
+1448194264.341823 input_csi_dispatch: 'm' "" "01"
+1448194264.341828 input_csi_dispatch: 'm' "" "31"
+1448194264.341834 input_csi_dispatch: 'm' "" "34"
+1448194264.341838 input_csi_dispatch: 'm' "" "33"
+1448194264.341840 input_utf8_open
+1448194264.341842 input_utf8_add
+1448194264.341844 input_utf8_close
+1448194264.341848 input_csi_dispatch: 'm' "" "00"
+1448194264.341850 input_csi_dispatch: 'm' "" "00"
+1448194264.341853 input_csi_dispatch: 'm' "" "01"
+1448194264.341857 input_csi_dispatch: 'm' "" "00"
+1448194264.341859 input_csi_dispatch: 'K' "" ""
+1448194264.341863 event dispatch exit
+1448194264.341869 event dispatch enter
+1448194264.341888 %0 has 15 bytes
+1448194264.341892 @0 alerts timer reset 0
+1448194264.341895 input_parse: %0 ground, 15 bytes: \033[?1h\033=\033[?2004h
+1448194264.341905 input_csi_dispatch: 'h' "?" "1"
+1448194264.341909 input_esc_dispatch: '=', 
+1448194264.341912 input_csi_dispatch: 'h' "?" "2004"
+1448194264.341915 event dispatch exit
+1448194264.341919 event dispatch enter
+1448194264.341930 event dispatch exit
+1448194264.341933 event dispatch enter
+1448194266.929412 keys are 1 (\001)
+1448194266.929427 complete key \001 0x1
+1448194266.929443 event dispatch exit
+1448194266.929823 format '#[fg=colour4,bold]\342\231\237 #S' -> '#[fg=colour4,bold]\342\231\237 0'
+1448194266.930137 format 'osascript ~/.dotfiles/applescripts/itunes.scpt' -> 'osascript ~/.dotfiles/applescripts/itunes.scpt'
+1448194266.930410 run job 0x7fa363f04590: osascript ~/.dotfiles/applescripts/itunes.scpt, pid 70057
+1448194266.930456 format 'osascript ~/.dotfiles/applescripts/rdio.scpt' -> 'osascript ~/.dotfiles/applescripts/rdio.scpt'
+1448194266.930632 run job 0x7fa363f04cb0: osascript ~/.dotfiles/applescripts/rdio.scpt, pid 70058
+1448194266.930650 format 'osascript ~/.dotfiles/applescripts/spotify.scpt' -> 'osascript ~/.dotfiles/applescripts/spotify.scpt'
+1448194266.930833 run job 0x7fa363f05040: osascript ~/.dotfiles/applescripts/spotify.scpt, pid 70059
+1448194266.930872 format '#[fg=colour203]#(osascript ~/.dotfiles/applescripts/itunes.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/rdio.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/spotify.scpt) #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]#h' -> '#[fg=colour203] #[fg=colour203] #[fg=colour203] #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]Patricks-MacBook-Pro'
+1448194266.931252 format '#[bold]#I #W' -> '#[bold]1 ..dotfiles/tmux'
+1448194266.931365 event dispatch enter
+1448194266.931401 job write 0x7fa363f04590: osascript ~/.dotfiles/applescripts/itunes.scpt, pid 70057, output left 0
+1448194266.931410 job write 0x7fa363f04cb0: osascript ~/.dotfiles/applescripts/rdio.scpt, pid 70058, output left 0
+1448194266.931417 job write 0x7fa363f05040: osascript ~/.dotfiles/applescripts/spotify.scpt, pid 70059, output left 0
+1448194266.931422 event dispatch exit
+1448194266.931427 event dispatch enter
+1448194266.992210 job error 0x7fa363f05040: osascript ~/.dotfiles/applescripts/spotify.scpt, pid 70059
+1448194266.992222 event dispatch exit
+1448194266.992232 event dispatch enter
+1448194266.992410 job died 0x7fa363f05040: osascript ~/.dotfiles/applescripts/spotify.scpt, pid 70059
+1448194266.992428 format_job_callback: osascript ~/.dotfiles/applescripts/spotify.scpt: 
+1448194266.992434 free job 0x7fa363f05040: osascript ~/.dotfiles/applescripts/spotify.scpt
+1448194266.992505 event dispatch exit
+1448194266.993221 format '#[fg=colour4,bold]\342\231\237 #S' -> '#[fg=colour4,bold]\342\231\237 0'
+1448194266.993871 format 'osascript ~/.dotfiles/applescripts/itunes.scpt' -> 'osascript ~/.dotfiles/applescripts/itunes.scpt'
+1448194266.993882 format 'osascript ~/.dotfiles/applescripts/rdio.scpt' -> 'osascript ~/.dotfiles/applescripts/rdio.scpt'
+1448194266.993887 format 'osascript ~/.dotfiles/applescripts/spotify.scpt' -> 'osascript ~/.dotfiles/applescripts/spotify.scpt'
+1448194266.993907 format '#[fg=colour203]#(osascript ~/.dotfiles/applescripts/itunes.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/rdio.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/spotify.scpt) #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]#h' -> '#[fg=colour203] #[fg=colour203] #[fg=colour203] #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]Patricks-MacBook-Pro'
+1448194266.994551 format '#[bold]#I #W' -> '#[bold]1 ..dotfiles/tmux'
+1448194266.994631 event dispatch enter
+1448194266.997285 job error 0x7fa363f04590: osascript ~/.dotfiles/applescripts/itunes.scpt, pid 70057
+1448194266.997298 event dispatch exit
+1448194266.997304 event dispatch enter
+1448194266.997426 job died 0x7fa363f04590: osascript ~/.dotfiles/applescripts/itunes.scpt, pid 70057
+1448194266.997435 format_job_callback: osascript ~/.dotfiles/applescripts/itunes.scpt: 
+1448194266.997440 free job 0x7fa363f04590: osascript ~/.dotfiles/applescripts/itunes.scpt
+1448194266.997488 event dispatch exit
+1448194266.997943 format '#[fg=colour4,bold]\342\231\237 #S' -> '#[fg=colour4,bold]\342\231\237 0'
+1448194266.998231 format 'osascript ~/.dotfiles/applescripts/itunes.scpt' -> 'osascript ~/.dotfiles/applescripts/itunes.scpt'
+1448194266.998237 format 'osascript ~/.dotfiles/applescripts/rdio.scpt' -> 'osascript ~/.dotfiles/applescripts/rdio.scpt'
+1448194266.998241 format 'osascript ~/.dotfiles/applescripts/spotify.scpt' -> 'osascript ~/.dotfiles/applescripts/spotify.scpt'
+1448194266.998251 format '#[fg=colour203]#(osascript ~/.dotfiles/applescripts/itunes.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/rdio.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/spotify.scpt) #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]#h' -> '#[fg=colour203] #[fg=colour203] #[fg=colour203] #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]Patricks-MacBook-Pro'
+1448194266.998661 format '#[bold]#I #W' -> '#[bold]1 ..dotfiles/tmux'
+1448194266.998712 event dispatch enter
+1448194267.001223 job error 0x7fa363f04cb0: osascript ~/.dotfiles/applescripts/rdio.scpt, pid 70058
+1448194267.001233 event dispatch exit
+1448194267.001238 event dispatch enter
+1448194267.001320 job died 0x7fa363f04cb0: osascript ~/.dotfiles/applescripts/rdio.scpt, pid 70058
+1448194267.001332 format_job_callback: osascript ~/.dotfiles/applescripts/rdio.scpt: 
+1448194267.001337 free job 0x7fa363f04cb0: osascript ~/.dotfiles/applescripts/rdio.scpt
+1448194267.001395 event dispatch exit
+1448194267.002093 format '#[fg=colour4,bold]\342\231\237 #S' -> '#[fg=colour4,bold]\342\231\237 0'
+1448194267.002384 format 'osascript ~/.dotfiles/applescripts/itunes.scpt' -> 'osascript ~/.dotfiles/applescripts/itunes.scpt'
+1448194267.002610 run job 0x7fa363f04850: osascript ~/.dotfiles/applescripts/itunes.scpt, pid 70060
+1448194267.002638 format 'osascript ~/.dotfiles/applescripts/rdio.scpt' -> 'osascript ~/.dotfiles/applescripts/rdio.scpt'
+1448194267.002951 run job 0x7fa363f04c10: osascript ~/.dotfiles/applescripts/rdio.scpt, pid 70061
+1448194267.002973 format 'osascript ~/.dotfiles/applescripts/spotify.scpt' -> 'osascript ~/.dotfiles/applescripts/spotify.scpt'
+1448194267.003157 run job 0x7fa363f04fd0: osascript ~/.dotfiles/applescripts/spotify.scpt, pid 70062
+1448194267.003217 format '#[fg=colour203]#(osascript ~/.dotfiles/applescripts/itunes.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/rdio.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/spotify.scpt) #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]#h' -> '#[fg=colour203] #[fg=colour203] #[fg=colour203] #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]Patricks-MacBook-Pro'
+1448194267.003783 format '#[bold]#I #W' -> '#[bold]1 ..dotfiles/tmux'
+1448194267.003895 event dispatch enter
+1448194267.003930 job write 0x7fa363f04850: osascript ~/.dotfiles/applescripts/itunes.scpt, pid 70060, output left 0
+1448194267.003940 job write 0x7fa363f04c10: osascript ~/.dotfiles/applescripts/rdio.scpt, pid 70061, output left 0
+1448194267.003946 job write 0x7fa363f04fd0: osascript ~/.dotfiles/applescripts/spotify.scpt, pid 70062, output left 0
+1448194267.003951 event dispatch exit
+1448194267.003957 event dispatch enter
+1448194267.067637 job error 0x7fa363f04fd0: osascript ~/.dotfiles/applescripts/spotify.scpt, pid 70062
+1448194267.067652 event dispatch exit
+1448194267.067662 event dispatch enter
+1448194267.068143 job died 0x7fa363f04fd0: osascript ~/.dotfiles/applescripts/spotify.scpt, pid 70062
+1448194267.068161 format_job_callback: osascript ~/.dotfiles/applescripts/spotify.scpt: 
+1448194267.068167 free job 0x7fa363f04fd0: osascript ~/.dotfiles/applescripts/spotify.scpt
+1448194267.068266 event dispatch exit
+1448194267.069027 format '#[fg=colour4,bold]\342\231\237 #S' -> '#[fg=colour4,bold]\342\231\237 0'
+1448194267.069701 format 'osascript ~/.dotfiles/applescripts/itunes.scpt' -> 'osascript ~/.dotfiles/applescripts/itunes.scpt'
+1448194267.069712 format 'osascript ~/.dotfiles/applescripts/rdio.scpt' -> 'osascript ~/.dotfiles/applescripts/rdio.scpt'
+1448194267.069732 format 'osascript ~/.dotfiles/applescripts/spotify.scpt' -> 'osascript ~/.dotfiles/applescripts/spotify.scpt'
+1448194267.069783 format '#[fg=colour203]#(osascript ~/.dotfiles/applescripts/itunes.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/rdio.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/spotify.scpt) #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]#h' -> '#[fg=colour203] #[fg=colour203] #[fg=colour203] #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]Patricks-MacBook-Pro'
+1448194267.070533 format '#[bold]#I #W' -> '#[bold]1 ..dotfiles/tmux'
+1448194267.070624 event dispatch enter
+1448194267.073418 job error 0x7fa363f04850: osascript ~/.dotfiles/applescripts/itunes.scpt, pid 70060
+1448194267.073428 event dispatch exit
+1448194267.073434 event dispatch enter
+1448194267.073515 job died 0x7fa363f04850: osascript ~/.dotfiles/applescripts/itunes.scpt, pid 70060
+1448194267.073537 format_job_callback: osascript ~/.dotfiles/applescripts/itunes.scpt: 
+1448194267.073547 free job 0x7fa363f04850: osascript ~/.dotfiles/applescripts/itunes.scpt
+1448194267.073613 event dispatch exit
+1448194267.074230 format '#[fg=colour4,bold]\342\231\237 #S' -> '#[fg=colour4,bold]\342\231\237 0'
+1448194267.074543 format 'osascript ~/.dotfiles/applescripts/itunes.scpt' -> 'osascript ~/.dotfiles/applescripts/itunes.scpt'
+1448194267.074550 format 'osascript ~/.dotfiles/applescripts/rdio.scpt' -> 'osascript ~/.dotfiles/applescripts/rdio.scpt'
+1448194267.074554 format 'osascript ~/.dotfiles/applescripts/spotify.scpt' -> 'osascript ~/.dotfiles/applescripts/spotify.scpt'
+1448194267.074566 format '#[fg=colour203]#(osascript ~/.dotfiles/applescripts/itunes.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/rdio.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/spotify.scpt) #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]#h' -> '#[fg=colour203] #[fg=colour203] #[fg=colour203] #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]Patricks-MacBook-Pro'
+1448194267.075040 format '#[bold]#I #W' -> '#[bold]1 ..dotfiles/tmux'
+1448194267.075116 event dispatch enter
+1448194267.077557 job error 0x7fa363f04c10: osascript ~/.dotfiles/applescripts/rdio.scpt, pid 70061
+1448194267.077566 event dispatch exit
+1448194267.077572 event dispatch enter
+1448194267.077655 job died 0x7fa363f04c10: osascript ~/.dotfiles/applescripts/rdio.scpt, pid 70061
+1448194267.077667 format_job_callback: osascript ~/.dotfiles/applescripts/rdio.scpt: 
+1448194267.077673 free job 0x7fa363f04c10: osascript ~/.dotfiles/applescripts/rdio.scpt
+1448194267.077726 event dispatch exit
+1448194267.078571 format '#[fg=colour4,bold]\342\231\237 #S' -> '#[fg=colour4,bold]\342\231\237 0'
+1448194267.078966 format 'osascript ~/.dotfiles/applescripts/itunes.scpt' -> 'osascript ~/.dotfiles/applescripts/itunes.scpt'
+1448194267.078973 format 'osascript ~/.dotfiles/applescripts/rdio.scpt' -> 'osascript ~/.dotfiles/applescripts/rdio.scpt'
+1448194267.078977 format 'osascript ~/.dotfiles/applescripts/spotify.scpt' -> 'osascript ~/.dotfiles/applescripts/spotify.scpt'
+1448194267.078991 format '#[fg=colour203]#(osascript ~/.dotfiles/applescripts/itunes.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/rdio.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/spotify.scpt) #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]#h' -> '#[fg=colour203] #[fg=colour203] #[fg=colour203] #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]Patricks-MacBook-Pro'
+1448194267.079279 format '#[bold]#I #W' -> '#[bold]1 ..dotfiles/tmux'
+1448194267.079325 event dispatch enter
+1448194267.435282 keys are 1 (x)
+1448194267.435297 complete key x 0x78
+1448194267.435313 continuing cmdq 0x7fa363e04aa0: flags=0, client=7
+1448194267.435319 cmdq 0x7fa363e04aa0: confirm-before -p "kill-pane #P? (y/n)" kill-pane
+1448194267.435654 format 'kill-pane #P? (y/n) ' -> 'kill-pane 1? (y/n) '
+1448194267.435684 event dispatch exit
+1448194267.435749 event dispatch enter
+1448194267.435769 event dispatch exit
+1448194267.435772 event dispatch enter
+1448194267.919137 keys are 1 (\r)
+1448194267.919153 complete key \r 0xd
+1448194267.919162 unref client 7 (2 references)
+1448194267.919168 event dispatch exit
+1448194267.919557 format '#[fg=colour4,bold]\342\231\237 #S' -> '#[fg=colour4,bold]\342\231\237 0'
+1448194267.919871 format 'osascript ~/.dotfiles/applescripts/itunes.scpt' -> 'osascript ~/.dotfiles/applescripts/itunes.scpt'
+1448194267.919877 format 'osascript ~/.dotfiles/applescripts/rdio.scpt' -> 'osascript ~/.dotfiles/applescripts/rdio.scpt'
+1448194267.919881 format 'osascript ~/.dotfiles/applescripts/spotify.scpt' -> 'osascript ~/.dotfiles/applescripts/spotify.scpt'
+1448194267.919895 format '#[fg=colour203]#(osascript ~/.dotfiles/applescripts/itunes.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/rdio.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/spotify.scpt) #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]#h' -> '#[fg=colour203] #[fg=colour203] #[fg=colour203] #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]Patricks-MacBook-Pro'
+1448194267.920206 format '#[bold]#I #W' -> '#[bold]1 ..dotfiles/tmux'
+1448194267.920673 event dispatch enter
+1448194267.920694 event dispatch exit
+1448194267.920698 event dispatch enter
+1448194268.897743 keys are 1 (\001)
+1448194268.897758 complete key \001 0x1
+1448194268.897766 event dispatch exit
+1448194268.898149 format '#[fg=colour4,bold]\342\231\237 #S' -> '#[fg=colour4,bold]\342\231\237 0'
+1448194268.898462 format 'osascript ~/.dotfiles/applescripts/itunes.scpt' -> 'osascript ~/.dotfiles/applescripts/itunes.scpt'
+1448194268.898738 run job 0x7fa363c08200: osascript ~/.dotfiles/applescripts/itunes.scpt, pid 70063
+1448194268.898777 format 'osascript ~/.dotfiles/applescripts/rdio.scpt' -> 'osascript ~/.dotfiles/applescripts/rdio.scpt'
+1448194268.898941 run job 0x7fa363c085c0: osascript ~/.dotfiles/applescripts/rdio.scpt, pid 70064
+1448194268.898961 format 'osascript ~/.dotfiles/applescripts/spotify.scpt' -> 'osascript ~/.dotfiles/applescripts/spotify.scpt'
+1448194268.899145 run job 0x7fa363c08980: osascript ~/.dotfiles/applescripts/spotify.scpt, pid 70065
+1448194268.899202 format '#[fg=colour203]#(osascript ~/.dotfiles/applescripts/itunes.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/rdio.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/spotify.scpt) #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]#h' -> '#[fg=colour203] #[fg=colour203] #[fg=colour203] #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]Patricks-MacBook-Pro'
+1448194268.899780 format '#[bold]#I #W' -> '#[bold]1 ..dotfiles/tmux'
+1448194268.899903 event dispatch enter
+1448194268.899940 job write 0x7fa363c08200: osascript ~/.dotfiles/applescripts/itunes.scpt, pid 70063, output left 0
+1448194268.899950 job write 0x7fa363c085c0: osascript ~/.dotfiles/applescripts/rdio.scpt, pid 70064, output left 0
+1448194268.899957 job write 0x7fa363c08980: osascript ~/.dotfiles/applescripts/spotify.scpt, pid 70065, output left 0
+1448194268.899963 event dispatch exit
+1448194268.899968 event dispatch enter
+1448194268.961719 job error 0x7fa363c08980: osascript ~/.dotfiles/applescripts/spotify.scpt, pid 70065
+1448194268.961734 event dispatch exit
+1448194268.961744 event dispatch enter
+1448194268.961787 job died 0x7fa363c08980: osascript ~/.dotfiles/applescripts/spotify.scpt, pid 70065
+1448194268.961824 format_job_callback: osascript ~/.dotfiles/applescripts/spotify.scpt: 
+1448194268.961836 free job 0x7fa363c08980: osascript ~/.dotfiles/applescripts/spotify.scpt
+1448194268.961909 event dispatch exit
+1448194268.962678 format '#[fg=colour4,bold]\342\231\237 #S' -> '#[fg=colour4,bold]\342\231\237 0'
+1448194268.963242 format 'osascript ~/.dotfiles/applescripts/itunes.scpt' -> 'osascript ~/.dotfiles/applescripts/itunes.scpt'
+1448194268.963254 format 'osascript ~/.dotfiles/applescripts/rdio.scpt' -> 'osascript ~/.dotfiles/applescripts/rdio.scpt'
+1448194268.963261 format 'osascript ~/.dotfiles/applescripts/spotify.scpt' -> 'osascript ~/.dotfiles/applescripts/spotify.scpt'
+1448194268.963284 format '#[fg=colour203]#(osascript ~/.dotfiles/applescripts/itunes.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/rdio.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/spotify.scpt) #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]#h' -> '#[fg=colour203] #[fg=colour203] #[fg=colour203] #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]Patricks-MacBook-Pro'
+1448194268.963859 format '#[bold]#I #W' -> '#[bold]1 ..dotfiles/tmux'
+1448194268.963951 event dispatch enter
+1448194268.967565 job error 0x7fa363c08200: osascript ~/.dotfiles/applescripts/itunes.scpt, pid 70063
+1448194268.967579 event dispatch exit
+1448194268.967587 event dispatch enter
+1448194268.967698 job died 0x7fa363c08200: osascript ~/.dotfiles/applescripts/itunes.scpt, pid 70063
+1448194268.967712 format_job_callback: osascript ~/.dotfiles/applescripts/itunes.scpt: 
+1448194268.967718 free job 0x7fa363c08200: osascript ~/.dotfiles/applescripts/itunes.scpt
+1448194268.967798 event dispatch exit
+1448194268.968395 format '#[fg=colour4,bold]\342\231\237 #S' -> '#[fg=colour4,bold]\342\231\237 0'
+1448194268.968956 format 'osascript ~/.dotfiles/applescripts/itunes.scpt' -> 'osascript ~/.dotfiles/applescripts/itunes.scpt'
+1448194268.968967 format 'osascript ~/.dotfiles/applescripts/rdio.scpt' -> 'osascript ~/.dotfiles/applescripts/rdio.scpt'
+1448194268.968973 format 'osascript ~/.dotfiles/applescripts/spotify.scpt' -> 'osascript ~/.dotfiles/applescripts/spotify.scpt'
+1448194268.968988 format '#[fg=colour203]#(osascript ~/.dotfiles/applescripts/itunes.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/rdio.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/spotify.scpt) #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]#h' -> '#[fg=colour203] #[fg=colour203] #[fg=colour203] #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]Patricks-MacBook-Pro'
+1448194268.969606 format '#[bold]#I #W' -> '#[bold]1 ..dotfiles/tmux'
+1448194268.969707 event dispatch enter
+1448194268.972326 job error 0x7fa363c085c0: osascript ~/.dotfiles/applescripts/rdio.scpt, pid 70064
+1448194268.972337 event dispatch exit
+1448194268.972342 event dispatch enter
+1448194268.972410 job died 0x7fa363c085c0: osascript ~/.dotfiles/applescripts/rdio.scpt, pid 70064
+1448194268.972434 format_job_callback: osascript ~/.dotfiles/applescripts/rdio.scpt: 
+1448194268.972440 free job 0x7fa363c085c0: osascript ~/.dotfiles/applescripts/rdio.scpt
+1448194268.972500 event dispatch exit
+1448194268.973023 format '#[fg=colour4,bold]\342\231\237 #S' -> '#[fg=colour4,bold]\342\231\237 0'
+1448194268.973358 format 'osascript ~/.dotfiles/applescripts/itunes.scpt' -> 'osascript ~/.dotfiles/applescripts/itunes.scpt'
+1448194268.973366 format 'osascript ~/.dotfiles/applescripts/rdio.scpt' -> 'osascript ~/.dotfiles/applescripts/rdio.scpt'
+1448194268.973370 format 'osascript ~/.dotfiles/applescripts/spotify.scpt' -> 'osascript ~/.dotfiles/applescripts/spotify.scpt'
+1448194268.973385 format '#[fg=colour203]#(osascript ~/.dotfiles/applescripts/itunes.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/rdio.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/spotify.scpt) #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]#h' -> '#[fg=colour203] #[fg=colour203] #[fg=colour203] #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]Patricks-MacBook-Pro'
+1448194268.973693 format '#[bold]#I #W' -> '#[bold]1 ..dotfiles/tmux'
+1448194268.973751 event dispatch enter
+1448194269.135511 client 7, status interval 5
+1448194269.135533 event dispatch exit
+1448194269.135855 format '#[fg=colour4,bold]\342\231\237 #S' -> '#[fg=colour4,bold]\342\231\237 0'
+1448194269.136106 format 'osascript ~/.dotfiles/applescripts/itunes.scpt' -> 'osascript ~/.dotfiles/applescripts/itunes.scpt'
+1448194269.136364 run job 0x7fa363e10780: osascript ~/.dotfiles/applescripts/itunes.scpt, pid 70066
+1448194269.136380 format 'osascript ~/.dotfiles/applescripts/rdio.scpt' -> 'osascript ~/.dotfiles/applescripts/rdio.scpt'
+1448194269.136541 run job 0x7fa363e10b10: osascript ~/.dotfiles/applescripts/rdio.scpt, pid 70067
+1448194269.136557 format 'osascript ~/.dotfiles/applescripts/spotify.scpt' -> 'osascript ~/.dotfiles/applescripts/spotify.scpt'
+1448194269.136726 run job 0x7fa363e10ed0: osascript ~/.dotfiles/applescripts/spotify.scpt, pid 70068
+1448194269.136782 format '#[fg=colour203]#(osascript ~/.dotfiles/applescripts/itunes.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/rdio.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/spotify.scpt) #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]#h' -> '#[fg=colour203] #[fg=colour203] #[fg=colour203] #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]Patricks-MacBook-Pro'
+1448194269.137389 format '#[bold]#I #W' -> '#[bold]1 ..dotfiles/tmux'
+1448194269.137476 event dispatch enter
+1448194269.137509 job write 0x7fa363e10780: osascript ~/.dotfiles/applescripts/itunes.scpt, pid 70066, output left 0
+1448194269.137517 job write 0x7fa363e10b10: osascript ~/.dotfiles/applescripts/rdio.scpt, pid 70067, output left 0
+1448194269.137523 job write 0x7fa363e10ed0: osascript ~/.dotfiles/applescripts/spotify.scpt, pid 70068, output left 0
+1448194269.137528 event dispatch exit
+1448194269.137533 event dispatch enter
+1448194269.201807 job error 0x7fa363e10ed0: osascript ~/.dotfiles/applescripts/spotify.scpt, pid 70068
+1448194269.201830 event dispatch exit
+1448194269.201856 event dispatch enter
+1448194269.201963 job died 0x7fa363e10ed0: osascript ~/.dotfiles/applescripts/spotify.scpt, pid 70068
+1448194269.201973 format_job_callback: osascript ~/.dotfiles/applescripts/spotify.scpt: 
+1448194269.201979 free job 0x7fa363e10ed0: osascript ~/.dotfiles/applescripts/spotify.scpt
+1448194269.202043 event dispatch exit
+1448194269.202758 format '#[fg=colour4,bold]\342\231\237 #S' -> '#[fg=colour4,bold]\342\231\237 0'
+1448194269.203380 format 'osascript ~/.dotfiles/applescripts/itunes.scpt' -> 'osascript ~/.dotfiles/applescripts/itunes.scpt'
+1448194269.203400 format 'osascript ~/.dotfiles/applescripts/rdio.scpt' -> 'osascript ~/.dotfiles/applescripts/rdio.scpt'
+1448194269.203414 format 'osascript ~/.dotfiles/applescripts/spotify.scpt' -> 'osascript ~/.dotfiles/applescripts/spotify.scpt'
+1448194269.203439 format '#[fg=colour203]#(osascript ~/.dotfiles/applescripts/itunes.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/rdio.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/spotify.scpt) #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]#h' -> '#[fg=colour203] #[fg=colour203] #[fg=colour203] #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]Patricks-MacBook-Pro'
+1448194269.203965 format '#[bold]#I #W' -> '#[bold]1 ..dotfiles/tmux'
+1448194269.204069 event dispatch enter
+1448194269.207291 job error 0x7fa363e10780: osascript ~/.dotfiles/applescripts/itunes.scpt, pid 70066
+1448194269.207304 event dispatch exit
+1448194269.207313 event dispatch enter
+1448194269.207441 job died 0x7fa363e10780: osascript ~/.dotfiles/applescripts/itunes.scpt, pid 70066
+1448194269.207459 format_job_callback: osascript ~/.dotfiles/applescripts/itunes.scpt: 
+1448194269.207466 free job 0x7fa363e10780: osascript ~/.dotfiles/applescripts/itunes.scpt
+1448194269.207517 event dispatch exit
+1448194269.207990 format '#[fg=colour4,bold]\342\231\237 #S' -> '#[fg=colour4,bold]\342\231\237 0'
+1448194269.208290 format 'osascript ~/.dotfiles/applescripts/itunes.scpt' -> 'osascript ~/.dotfiles/applescripts/itunes.scpt'
+1448194269.208296 format 'osascript ~/.dotfiles/applescripts/rdio.scpt' -> 'osascript ~/.dotfiles/applescripts/rdio.scpt'
+1448194269.208300 format 'osascript ~/.dotfiles/applescripts/spotify.scpt' -> 'osascript ~/.dotfiles/applescripts/spotify.scpt'
+1448194269.208311 format '#[fg=colour203]#(osascript ~/.dotfiles/applescripts/itunes.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/rdio.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/spotify.scpt) #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]#h' -> '#[fg=colour203] #[fg=colour203] #[fg=colour203] #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]Patricks-MacBook-Pro'
+1448194269.208685 format '#[bold]#I #W' -> '#[bold]1 ..dotfiles/tmux'
+1448194269.208737 event dispatch enter
+1448194269.211804 job error 0x7fa363e10b10: osascript ~/.dotfiles/applescripts/rdio.scpt, pid 70067
+1448194269.211814 event dispatch exit
+1448194269.211819 event dispatch enter
+1448194269.211926 job died 0x7fa363e10b10: osascript ~/.dotfiles/applescripts/rdio.scpt, pid 70067
+1448194269.211952 format_job_callback: osascript ~/.dotfiles/applescripts/rdio.scpt: 
+1448194269.211958 free job 0x7fa363e10b10: osascript ~/.dotfiles/applescripts/rdio.scpt
+1448194269.212021 event dispatch exit
+1448194269.212647 format '#[fg=colour4,bold]\342\231\237 #S' -> '#[fg=colour4,bold]\342\231\237 0'
+1448194269.212997 format 'osascript ~/.dotfiles/applescripts/itunes.scpt' -> 'osascript ~/.dotfiles/applescripts/itunes.scpt'
+1448194269.213005 format 'osascript ~/.dotfiles/applescripts/rdio.scpt' -> 'osascript ~/.dotfiles/applescripts/rdio.scpt'
+1448194269.213009 format 'osascript ~/.dotfiles/applescripts/spotify.scpt' -> 'osascript ~/.dotfiles/applescripts/spotify.scpt'
+1448194269.213041 format '#[fg=colour203]#(osascript ~/.dotfiles/applescripts/itunes.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/rdio.scpt) #[fg=colour203]#(osascript ~/.dotfiles/applescripts/spotify.scpt) #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]#h' -> '#[fg=colour203] #[fg=colour203] #[fg=colour203] #[fg=colour241] 23:11 22 Nov #[fg=colour4,bold]Patricks-MacBook-Pro'
+1448194269.213398 format '#[bold]#I #W' -> '#[bold]1 ..dotfiles/tmux'
+1448194269.213445 event dispatch enter
+1448194269.921336 keys are 1 (x)
+1448194269.921349 complete key x 0x78
+1448194269.921363 continuing cmdq 0x7fa363e04aa0: flags=0, client=7
+1448194269.921369 cmdq 0x7fa363e04aa0: confirm-before -p "kill-pane #P? (y/n)" kill-pane
+1448194269.921685 format 'kill-pane #P? (y/n) ' -> 'kill-pane 1? (y/n) '
+1448194269.921714 event dispatch exit
+1448194269.921786 event dispatch enter
+1448194269.921805 event dispatch exit
+1448194269.921808 event dispatch enter
+1448194270.663674 keys are 1 (y)
+1448194270.663687 complete key y 0x79
+1448194270.663717 continuing cmdq 0x7fa363e04aa0: flags=0, client=7
+1448194270.663721 cmdq 0x7fa363e04aa0: kill-pane
+1448194270.663728 cmd_find_pane: target none
+1448194270.663730 \ts=$0
+1448194270.663732 \twl=1 1 w=@0 ..dotfiles/tmux
+1448194270.663734 \twp=%0
+1448194270.663736 \tidx=1
+1448194270.663741 session 0 destroyed
+1448194270.663748 session 0 has 3 references
+1448194270.663752 session 0 has 2 references
+1448194270.663780 session 0 has 1 references
+1448194270.663785 unref client 7 (2 references)
+1448194270.663790 event dispatch exit
+1448194270.663792 writing 203 to client 7
+1448194270.663796 event dispatch enter
+1448194270.663816 session 0 freed (0 references)
+1448194270.663819 event dispatch exit
+1448194270.663821 event dispatch enter
+1448194270.663934 got 205 from client 7
+1448194270.664013 writing 204 to client 7
+1448194270.664019 event dispatch exit
+1448194270.664022 event dispatch enter
+1448194270.664040 event dispatch exit
+1448194270.664045 event dispatch enter
+1448194270.664476 event dispatch exit
+1448194270.664484 event dispatch enter
+1448194270.668917 lost client 7
+1448194270.668943 unref client 7 (1 references)
+1448194270.668972 event dispatch exit
