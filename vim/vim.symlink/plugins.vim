@@ -6,6 +6,7 @@ call vundle#begin()
 " let vundle manage vundle
 Plugin 'gmarik/vundle'
 " Colour schemes
+" Plugin 'solarized/vim-colors-solarized'
 Plugin 'chriskempson/base16-vim'
 Plugin 'chriskempson/base16-iterm2'
 " Utilities

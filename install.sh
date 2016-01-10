@@ -23,8 +23,12 @@ if [ "$(uname)" == "Darwin" ]; then
     source install/osx.sh
 
     echo "Installing node (from nvm)"
-    nvm install stable
-    nvm alias default stable
+
+    source install/node.sh
+
+    nvm install node
+
+    source install/npm.sh
 
     echo "Configuring nginx"
     # create a backup of the original nginx.conf

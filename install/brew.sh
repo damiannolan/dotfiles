@@ -29,7 +29,6 @@ brew install tmux
 brew install zsh
 # Highlight looks useful but may never use
 brew install highlight
-brew install nvm
 brew install z
 brew install markdown
 brew install jenv
@@ -44,7 +43,7 @@ brew install imagemagick
 brew install jpeg
 brew install libpng
 brew install openssl
-
+brew install docker-machine-parallels
 # Homebrew Cask for command line installation of GUI tools
 brew install caskroom/cask/brew-cask
 
@@ -58,6 +57,7 @@ brew cask install iterm2
 brew cask install vlc
 brew cask install brackets
 brew cask install easysimbl
+brew cask install parallels-desktop
 
 brew tap caskroom/versions
 brew cask install java7
