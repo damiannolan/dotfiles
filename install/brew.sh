@@ -58,6 +58,8 @@ brew cask install vlc
 brew cask install brackets
 brew cask install easysimbl
 brew cask install parallels-desktop
+brew cask install charles
+brew cask install dropbox
 
 brew tap caskroom/versions
 brew cask install java7
