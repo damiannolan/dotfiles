@@ -116,7 +116,7 @@ let g:ctrlp_user_command = 'ag %s -i --nocolor --nogroup --hidden
 nnoremap <leader>. :CtrlPTag<cr>
 
 " Replace under cursor
-nnoremap <Leader>s :%s/\<<C-r><C-w>\>/
+" nnoremap <Leader>s :%s/\<<C-r><C-w>\>/
 
 "JavaScript
 au FileType javascript call JavaScriptFold()
@@ -138,4 +138,38 @@ set suffixesadd+=.js
 " Git
 set diffopt+=vertical 
 " Editor Config
-let g:EditorConfig_exclude_patterns = ['fugitive://.*']
+let g:EditorConfig_exclude_patterns = ['fugitive:.*']
+"
+" Set spellfile to location that is guaranteed to exist, can be symlinked to
+" Dropbox or kept in Git and managed outside of thoughtbot/dotfiles using rcm.
+set spellfile=$HOME/.vim-spell-en-au.utf-8.add
+
+" Turn on spellcheck
+
+nnoremap <silent> <leader>s :set spell!<CR>
+" Spell Check for markdown files
+autocmd BufRead,BufNewFile *.md setlocal spell 
+" Auto complete
+set complete+=kspell
+" You Complete Me 
+imap <Tab> <C-P>
+" Customize mappings snipMate uses to change the key that triggers
+" snippets and moves to the next tabstop.
+" Now <tab> can be used to autocomplete.
+imap <C-J> <Plug>snipMateNextOrTrigger
+smap <C-J> <Plug>snipMateNextOrTrigger
+
+if has('mac') && ($TERM == 'xterm-256color' || $TERM == 'screen-256color')
+  map <Esc>OP <F1>
+  map <Esc>OQ <F2>
+  map <Esc>OR <F3>
+  map <Esc>OS <F4>
+  map <Esc>[16~ <F5>
+  map <Esc>[17~ <F6>
+  map <Esc>[18~ <F7>
+  map <Esc>[19~ <F8>
+  map <Esc>[20~ <F9>
+  map <Esc>[21~ <F10>
+  map <Esc>[23~ <F11>
+  map <Esc>[24~ <F12>
+endif

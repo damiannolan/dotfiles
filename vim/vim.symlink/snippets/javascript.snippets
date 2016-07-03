@@ -77,6 +77,29 @@ snippet widget
 		});
 	});
 snippet doc
-	/**
-	 * ${1}
-	 */
+
+snippet us
+	(function() {
+		'use strict';
+		
+		${1}
+
+	}());
+# AngularJS deferred function 
+snippet deferfn
+	function ${1:name}(`$q`, ,${2:args}) {
+		var deferred = $q.defer();
+
+		${3:body}
+
+		return deferred.promise;	
+	});
+snippet deferanonfn
+	function ($q, ${1}) {
+		var deferred = $q.defer();
+
+		${2}
+
+		return deferred.promise;	
+	});
+

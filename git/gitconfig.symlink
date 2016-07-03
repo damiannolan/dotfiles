@@ -1,7 +1,7 @@
 # gitconfig
 [user]
-        name = patricknolan
-        email = patrick.nolan@deltareadytechnology.com.au
+        name = patnolan
+        email = pat@ideacraft.com.au 
 [core]
         autocrlf = input
 [diff]
