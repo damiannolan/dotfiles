@@ -79,11 +79,15 @@ set background=dark
 set encoding=utf8
 "let base16colorspace=256  " Access colors present in 256 colorspace"
 set t_Co=256 " Explicitly tell vim that the terminal supports 256 colors"
+
+"let g:solarized_bold = 1
+"let g:solarized_underline = 1
+"let g:solarized_italic = 1
 "let g:solarized_visiblility = "high"
 "let g:solarized_contrast = "high"
-"colorscheme base16-solarized
-"colorscheme solarized
 colorscheme base16-default-dark
+"colorscheme base16-default-dark
+"colorscheme solarized
 "Utilities
 let g:auto_save = 1  " enable AutoSave on Vim startup
 let g:auto_save_in_insert_mode = 0  " do not save while in insert mode
@@ -201,4 +205,5 @@ let g:UltiSnipsSnippetDirectories=["UltiSnips", "~/.vim/ulti-snips/snippets"]
 let g:UltiSnipsExpandTrigger = '<C-j>'
 let g:UltiSnipsJumpForwardTrigger = '<C-j>'
 let g:UltiSnipsJumpBackwardTrigger = '<C-k>'
+setlocal indentkeys+=0
 set foldmethod=syntax

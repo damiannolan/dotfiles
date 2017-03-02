@@ -6,8 +6,8 @@ call vundle#begin()
 " let vundle manage vundle
 Plugin 'gmarik/vundle'
 " Colour schemes
-Plugin 'chriskempson/base16-vim'
 Plugin 'chriskempson/base16-iterm2'
+Plugin 'chriskempson/base16-vim'
 Plugin 'altercation/vim-colors-solarized'
 " Utilities
 Plugin 'vim-scripts/vim-auto-save'
@@ -51,7 +51,6 @@ Plugin 'henrik/vim-qargs'
 "Plugin 'maksimr/vim-jsbeautify'
 "Plugin 'einars/js-beautify'
 Plugin 'Chiel92/vim-autoformat'
-"Plugin 'chriskempson/base16-vim'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'Shougo/unite.vim'
 Plugin 'Quramy/vim-dtsm'

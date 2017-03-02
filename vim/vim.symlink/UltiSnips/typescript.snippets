@@ -20,10 +20,96 @@ export const ActionTypes = {
 	SAVE_SUCCESS:                   type('[$1] Save Success'),
 	SAVE_FAILED:                    type('[$1] Save Failed'),
 };
+
+export class SelectAction implements Action {
+	type = ActionTypes.SELECT;
+
+	constructor(public payload: $1) {}
+}
+
+export class LoadAction implements Action {
+	type = ActionTypes.LOAD;
+
+	constructor(public payload: ${2:any}) {}
+}
+
+export class LoadSuccessAction implements Action {
+	type = ActionTypes.LOAD_SUCCESS;
+
+	constructor(public payload: $1) {}
+}
+
+export class LoadFailedAction implements Action {
+	type = ActionTypes.LOAD_FAILED;
+
+	constructor(${3:public payload: any}) {}
+}
+
+export class LoadCollectionAction implements Action {
+	type = ActionTypes.LOAD_COLLECTION;
+
+	constructor(public payload: ${4:any}) {}
+}
+
+export class LoadCollectionSuccessAction implements Action {
+	type = ActionTypes.LOAD_COLLECTION_SUCCESS;
+
+	constructor(public payload: $1[]) {}
+}
+
+export class LoadCollectionFailedAction implements Action {
+	type = ActionTypes.LOAD_COLLECTION_FAILED;
+
+	constructor($3) {}
+}
+
+export class SaveAction implements Action {
+	type = ActionTypes.SAVE;
+
+	constructor(public payload: $1) { }
+}
+
+export class SaveSuccessAction implements Action {
+	type = ActionTypes.SAVE_SUCCESS;
+
+	constructor(public payload: $1) { }
+}
+
+export class SaveFailedAction implements Action {
+	type = ActionTypes.SAVE_FAILED;
+
+	constructor($3) { }
+}
+
+export type Actions
+= LoadAction
+	| SelectAction
+		| LoadAction
+			| LoadSuccessAction
+				| LoadFailedAction
+					| LoadCollectionAction
+						| LoadCollectionSuccessAction
+							| LoadCollectionFailedAction
+								| SaveAction
+									| SaveSuccessAction
+										| SaveFailedAction;
 $0
 endsnippet
 
 snippet actiontype
 	$1:	type('[$2] $3'),
+$0
+endsnippet
+
+snippet reducer
+export function reducer(state = initialState, action: $1): State {
+	switch (action.type) {
+
+	default: {
+		return state;
+	}
+
+	}
+}
 $0
 endsnippet
