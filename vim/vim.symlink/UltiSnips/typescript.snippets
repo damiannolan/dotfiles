@@ -1,0 +1,29 @@
+snippet storeaction
+export class $1Action implements Action {
+	type = ActionTypes$2;
+
+	constructor(public payload: ${3:any}) {}
+}
+$0
+endsnippet
+
+snippet actiontypesforentity
+export const ActionTypes = {
+	SELECT:                         type('[$1] Select'),
+	LOAD:                           type('[$1] Load'),
+	LOAD_SUCCESS:                   type('[$1] Load Success'),
+	LOAD_FAILED:                    type('[$1] Load Failed'),
+	LOAD_COLLECTION:                type('[$1] Load Collection'),
+	LOAD_COLLECTION_SUCCESS:        type('[$1] Load Collection Success'),
+	LOAD_COLLECTION_FAILED:         type('[$1] Load Collection Failed'),
+	SAVE:                           type('[$1] Save'),
+	SAVE_SUCCESS:                   type('[$1] Save Success'),
+	SAVE_FAILED:                    type('[$1] Save Failed'),
+};
+$0
+endsnippet
+
+snippet actiontype
+	$1:	type('[$2] $3'),
+$0
+endsnippet

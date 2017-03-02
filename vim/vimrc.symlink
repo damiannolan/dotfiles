@@ -57,8 +57,10 @@ set ruler
 set number
 let g:jsx_ext_required = 0
 
-" Beautify 
-map <leader>b :call JsBeautify()<cr>
+" Beautify
+"map <leader>b :call JsBeautify()<cr>
+map <leader>b :Autoformat<cr>
+"noremap <F3> :Autoformat<CR>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Mappings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -66,7 +68,7 @@ map <leader>b :call JsBeautify()<cr>
 inoremap jk <esc>
 " set paste toggle
 set pastetoggle=<F6>
-" toggle paste moe 
+" toggle paste moe
 map <leader>v :set paste!<cr>
 
 " Utilities
@@ -79,7 +81,9 @@ set encoding=utf8
 set t_Co=256 " Explicitly tell vim that the terminal supports 256 colors"
 "let g:solarized_visiblility = "high"
 "let g:solarized_contrast = "high"
-colorscheme base16-solarized
+"colorscheme base16-solarized
+"colorscheme solarized
+colorscheme base16-default-dark
 "Utilities
 let g:auto_save = 1  " enable AutoSave on Vim startup
 let g:auto_save_in_insert_mode = 0  " do not save while in insert mode
@@ -118,8 +122,8 @@ nnoremap <leader>. :CtrlPTag<cr>
 nnoremap <Leader>s :%s/\<<C-r><C-w>\>/
 
 "JavaScript
-au FileType javascript call JavaScriptFold()
-let b:javascript_fold=1
+"au FileType javascript call JavaScriptFold()
+"let b:javascript_fold=1
 " Syntastic
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -131,10 +135,70 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_html_tidy_exec = 'tidy5'
 let g:syntastic_html_tidy_ignore_errors=["<ion-", "discarding unexpected </ion-", " proprietary attribute \"ng-", "<md-", "discarding unexpected </md-", " proprietary attribute \"md-", "ui-view", "discarding unexpected </ui-view", "<fp-", "discarding unexpected </fp-"]
+let g:tsuquyomi_disable_quickfix = 1
+let g:syntastic_typescript_checkers = ['tsuquyomi'] " You shouldn't use 'tsc' checker.
 let g:used_javascript_libs = 'underscore,angularjs,react'
 " CommonJS
 set suffixesadd+=.js
 " Git
-set diffopt+=vertical 
+set diffopt+=vertical
 " Editor Config
-let g:EditorConfig_exclude_patterns = ['fugitive://.*']
+let g:EditorConfig_exclude_patterns = ['fugitive:.*']
+
+"
+" Set spellfile to location that is guaranteed to exist, can be symlinked to
+" Dropbox or kept in Git and managed outside of thoughtbot/dotfiles using rcm.
+set spellfile=$HOME/.vim-spell-en-au.utf-8.add
+
+" Turn on spellcheck
+
+nnoremap <silent> <leader>s :set spell!<CR>
+" Spell Check for markdown files
+autocmd BufRead,BufNewFile *.md setlocal spell
+" Auto complete
+set complete+=kspell
+" You Complete Me
+imap <Tab> <C-P>
+" Customize mappings snipMate uses to change the key that triggers
+" snippets and moves to the next tabstop.
+" Now <tab> can be used to autocomplete.
+imap <C-J> <Plug>snipMateNextOrTrigger
+smap <C-J> <Plug>snipMateNextOrTrigger
+
+" Typescript
+if !exists("g:ycm_semantic_triggers")
+	let g:ycm_semantic_triggers = {}
+endif
+let g:ycm_semantic_triggers['typescript'] = ['.']
+
+if has('mac') && ($TERM == 'xterm-256color' || $TERM == 'screen-256color')
+  map <Esc>OP <F1>
+  map <Esc>OQ <F2>
+  map <Esc>OR <F3>
+  map <Esc>OS <F4>
+  map <Esc>[16~ <F5>
+  map <Esc>[17~ <F6>
+  map <Esc>[18~ <F7>
+  map <Esc>[19~ <F8>
+  map <Esc>[20~ <F9>
+  map <Esc>[21~ <F10>
+  map <Esc>[23~ <F11>
+  map <Esc>[24~ <F12>
+endif
+
+function! ToggleVerbose()
+	if !&verbose
+		set verbosefile=~/.log/vim/verbose.log
+		set verbose=15
+	else
+		set verbose=0
+		set verbosefile=
+endif
+endfunction
+let g:UltiSnipsSnippetsDir = "~/.vim/UltiSnips"
+let g:UltiSnipsSnippetDirectories=["UltiSnips", "~/.vim/ulti-snips/snippets"]
+" UltiSnips triggering
+let g:UltiSnipsExpandTrigger = '<C-j>'
+let g:UltiSnipsJumpForwardTrigger = '<C-j>'
+let g:UltiSnipsJumpBackwardTrigger = '<C-k>'
+set foldmethod=syntax

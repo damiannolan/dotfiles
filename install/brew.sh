@@ -35,6 +35,7 @@ brew install markdown
 brew install jenv
 brew install python
 brew install python3
+brew install octave
 
 # Utils
 brew install automake
@@ -44,6 +45,7 @@ brew install imagemagick
 brew install jpeg
 brew install libpng
 brew install openssl
+brew install yarn
 
 # Homebrew Cask for command line installation of GUI tools
 brew install caskroom/cask/brew-cask
