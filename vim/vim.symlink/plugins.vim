@@ -3,8 +3,8 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#begin()
 
-" let vundle manage vundle
-Plugin 'gmarik/vundle'
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
 " Colour schemes
 Plugin 'chriskempson/base16-iterm2'
 Plugin 'chriskempson/base16-vim'
@@ -15,7 +15,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
 Plugin 'scrooloose/nerdtree'
 " Fuzzy search
-Plugin 'kien/ctrlp.vim'
+" Plugin 'kien/ctrlp.vim'
 " Snippets
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
@@ -59,7 +59,7 @@ Plugin 'Quramy/tsuquyomi'
 Plugin 'Quramy/vim-js-pretty-template'
 Plugin 'jason0x43/vim-js-indent'
 Plugin 'reedes/vim-pencil'
-Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Valloric/YouCompleteMe'
 Plugin 'HerringtonDarkholme/yats.vim'
 Plugin 'vim-scripts/SyntaxComplete'
 

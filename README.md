@@ -35,3 +35,4 @@ another which requires a patched powerline font, clone the repo and install the 
 ## ZSH Plugins
 
 By default, the `.zshrc` file will source any file within `.dotfiles/zsh` that have the `.zsh` extension.
+
