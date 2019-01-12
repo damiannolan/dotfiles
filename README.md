@@ -18,7 +18,7 @@ Welcome to my world.
 2. `cd ~/.dotfiles`
 3. `./install.sh`
 
-In order to get mouse support in tumx 
+In order to get mouse support in tmux 
 
 1. Download [mouseterm](https://bitheap.org/mouseterm/) 
 2. Brew Cash has already installed easysimbl, spotlight find and run it.  It creates the directories for the next step
@@ -36,3 +36,4 @@ another which requires a patched powerline font, clone the repo and install the 
 
 By default, the `.zshrc` file will source any file within `.dotfiles/zsh` that have the `.zsh` extension.
 
+NOTE: Using iTerm materialdark and vim sierra themes
