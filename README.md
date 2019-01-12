@@ -37,3 +37,5 @@ another which requires a patched powerline font, clone the repo and install the 
 By default, the `.zshrc` file will source any file within `.dotfiles/zsh` that have the `.zsh` extension.
 
 NOTE: Using iTerm materialdark and vim sierra themes
+Needs a lot more work to learn and figure out what is and isn't working or what is and isn't needed... functional for
+now
